@@ -9,9 +9,8 @@ __pycache__/
 anaconda_projects/
 *.db
 
-# === Data ===
-data/raw/
-data/interim/
+# === External datasets / source repos ===
+the-building-data-genome-project/
 
 # === OS junk ===
 .DS_Store
