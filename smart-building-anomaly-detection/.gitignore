@@ -1,0 +1,18 @@
+# === Python ===
+__pycache__/
+*.pyc
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Conda / Anaconda ===
+anaconda_projects/
+*.db
+
+# === Data ===
+data/raw/
+data/interim/
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
