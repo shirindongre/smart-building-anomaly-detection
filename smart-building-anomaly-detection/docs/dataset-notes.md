@@ -1,4 +1,4 @@
-
+# Readme
 meta_open.csv:
 What column uniquely identifies a building?
 -> uid. 
