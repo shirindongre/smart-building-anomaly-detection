@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>LSTM Autoencoder Architecture</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@700;800&display=swap');
+
+  :root {
+    --bg: #0B1120;
+    --surface: #111827;
+    --border: #1E2A3B;
+    --encoder: #1D4ED8;
+    --encoder-light: #DBEAFE;
+    --latent: #7C3AED;
+    --latent-light: #EDE9FE;
+    --decoder: #0891B2;
+    --decoder-light: #CFFAFE;
+    --output: #059669;
+    --output-light: #D1FAE5;
+    --anomaly: #DC2626;
+    --anomaly-light: #FEE2E2;
+    --arrow: #475569;
+    --text: #F1F5F9;
+    --muted: #94A3B8;
+    --mono: 'JetBrains Mono', monospace;
+    --head: 'Syne', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    min-height: 100vh;
+    padding: 40px 32px;
+  }
+
+  h1 {
+    font-family: var(--head);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: #E2E8F0;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 36px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-family: var(--head);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+  .label-encoder { background: #1e3a8a22; color: #93C5FD; border-left: 3px solid var(--encoder); }
+  .label-bridge  { background: #4c1d9522; color: #C4B5FD; border-left: 3px solid var(--latent); }
+  .label-decoder { background: #164e6322; color: #67E8F9; border-left: 3px solid var(--decoder); }
+  .label-output  { background: #05321e22; color: #6EE7B7; border-left: 3px solid var(--output); }
+  .label-score   { background: #7f1d1d22; color: #FCA5A5; border-left: 3px solid var(--anomaly); }
+
+  .node {
+    width: 100%;
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    position: relative;
+  }
+  .node .left { display: flex; flex-direction: column; gap: 3px; }
+  .node .title { font-family: var(--head); font-weight: 700; font-size: 13px; }
+  .node .desc  { font-size: 10.5px; color: rgba(255,255,255,0.6); }
+  .node .badge {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .node-input   { background: #1E293B; border-color: #334155; }
+  .node-enc1    { background: #1e3a8a33; border-color: #1D4ED8; }
+  .node-enc2    { background: #1e3a8a55; border-color: #2563EB; }
+  .node-latent  { background: #4c1d9555; border-color: #7C3AED; }
+  .node-repeat  { background: #4c1d9533; border-color: #6D28D9; }
+  .node-dec1    { background: #0e7a9044; border-color: #0891B2; }
+  .node-dec2    { background: #0e7a9066; border-color: #06B6D4; }
+  .node-output  { background: #05321e44; border-color: #059669; }
+  .node-score   { background: #7f1d1d44; border-color: #DC2626; }
+
+  .badge-input   { background: #334155; color: #CBD5E1; }
+  .badge-enc     { background: #1e3a8a; color: #BFDBFE; }
+  .badge-latent  { background: #4c1d95; color: #DDD6FE; }
+  .badge-decoder { background: #0e7490; color: #A5F3FC; }
+  .badge-output  { background: #064e3b; color: #A7F3D0; }
+  .badge-score   { background: #7f1d1d; color: #FECACA; }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    color: var(--arrow);
+    font-size: 18px;
+    position: relative;
+  }
+  .arrow::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: var(--border);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .arrow span { background: var(--bg); padding: 0 6px; z-index: 1; }
+
+  .bottleneck-note {
+    margin: 4px 0 8px;
+    background: #4c1d9520;
+    border: 1px dashed #7C3AED88;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 10px;
+    color: #C4B5FD;
+    width: 100%;
+    line-height: 1.6;
+  }
+
+  hr.divider {
+    width: 100%;
+    border: none;
+    border-top: 1px dashed #1E2A3B;
+    margin: 8px 0;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+    justify-content: center;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    color: var(--muted);
+  }
+  .dot { width: 10px; height: 10px; border-radius: 2px; }
+
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .summary-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .summary-card h3 {
+    font-family: var(--head);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .param-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10.5px;
+    padding: 3px 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .param-row:last-child { border-bottom: none; }
+  .param-row .val { color: var(--text); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>LSTM Autoencoder — Architecture Diagram</h1>
+<p class="subtitle">Adaptive & Explainable Log Anomaly Detection · Smart Building Infrastructure · SIT Pune</p>
+
+<div class="diagram">
+
+  <!-- INPUT -->
+  <p class="section-label label-encoder">Input</p>
+  <div class="node node-input">
+    <div class="left">
+      <span class="title">Input Sequence</span>
+      <span class="desc">Sliding window of scaled feature vectors from the energy time-series</span>
+    </div>
+    <span class="badge badge-input">30 × 17</span>
+  </div>
+
+  <div class="arrow"><span>↓</span></div>
+
+  <!-- ENCODER -->
+  <p class="section-label label-encoder">Encoder</p>
+  <div class="node node-enc1">
+    <div class="left">
+      <span class="title">Encoder LSTM — Layer 1</span>
+      <span class="desc">Processes full sequence; return_sequences=True passes all hidden states forward</span>
+    </div>
+    <span class="badge badge-enc">LSTM · 64 units</span>
+  </div>
+
+  <div class="arrow"><span>↓ Dropout 0.1</span></div>
+
+  <div class="node node-enc2">
+    <div class="left">
+      <span class="title">Encoder LSTM — Layer 2</span>
+      <span class="desc">Summarises the entire window into a single vector; return_sequences=False</span>
+    </div>
+    <span class="badge badge-enc">LSTM · 32 units</span>
+  </div>
+
+  <div class="arrow"><span>↓ Dropout 0.1</span></div>
+
+  <!-- LATENT -->
+  <p class="section-label label-bridge">Bottleneck</p>
+  <div class="node node-latent">
+    <div class="left">
+      <span class="title">Latent Vector  ⟨ Bottleneck ⟩</span>
+      <span class="desc">Dense(ReLU) compresses the 32-D encoder output into a minimal representation of normal behaviour</span>
+    </div>
+    <span class="badge badge-latent">Dense · 16</span>
+  </div>
+
+  <div class="bottleneck-note">
+    ⚡ <strong>Why the bottleneck matters:</strong>
+    The model is forced to represent an entire 30-timestep window in just 16 numbers.
+    Anything that cannot be compressed (anomalous patterns) → large reconstruction error.
+  </div>
+
+  <div class="arrow"><span>↓</span></div>
+
+  <!-- BRIDGE -->
+  <div class="node node-repeat">
+    <div class="left">
+      <span class="title">Repeat Vector</span>
+      <span class="desc">Broadcasts the 16-D latent vector into a sequence of window_size identical vectors</span>
+    </div>
+    <span class="badge badge-latent">30 × 16</span>
+  </div>
+
+  <div class="arrow"><span>↓</span></div>
+
+  <!-- DECODER -->
+  <p class="section-label label-decoder">Decoder</p>
+  <div class="node node-dec1">
+    <div class="left">
+      <span class="title">Decoder LSTM — Layer 1</span>
+      <span class="desc">Interprets the repeated latent context; return_sequences=True produces a full sequence</span>
+    </div>
+    <span class="badge badge-decoder">LSTM · 32 units</span>
+  </div>
+
+  <div class="arrow"><span>↓ Dropout 0.1</span></div>
+
+  <div class="node node-dec2">
+    <div class="left">
+      <span class="title">Decoder LSTM — Layer 2</span>
+      <span class="desc">Refines the reconstruction; symmetrical to Encoder Layer 1</span>
+    </div>
+    <span class="badge badge-decoder">LSTM · 64 units</span>
+  </div>
+
+  <div class="arrow"><span>↓ Dropout 0.1</span></div>
+
+  <!-- OUTPUT -->
+  <p class="section-label label-output">Output</p>
+  <div class="node node-output">
+    <div class="left">
+      <span class="title">TimeDistributed Dense</span>
+      <span class="desc">Applies the same Dense layer at every timestep — projects back to the original feature space</span>
+    </div>
+    <span class="badge badge-output">30 × 17</span>
+  </div>
+
+  <div class="arrow"><span>↓ MSE Loss</span></div>
+
+  <!-- SCORE -->
+  <p class="section-label label-score">Anomaly Score</p>
+  <div class="node node-score">
+    <div class="left">
+      <span class="title">Reconstruction Error (MSE)</span>
+      <span class="desc">mean((original − reconstructed)²)  →  high score = anomaly when score &gt; μ + 3σ</span>
+    </div>
+    <span class="badge badge-score">Threshold: μ + 3σ</span>
+  </div>
+
+</div>
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-item"><div class="dot" style="background:#1D4ED8"></div>Encoder</div>
+  <div class="legend-item"><div class="dot" style="background:#7C3AED"></div>Bottleneck / Bridge</div>
+  <div class="legend-item"><div class="dot" style="background:#0891B2"></div>Decoder</div>
+  <div class="legend-item"><div class="dot" style="background:#059669"></div>Output</div>
+  <div class="legend-item"><div class="dot" style="background:#DC2626"></div>Anomaly Score</div>
+</div>
+
+<!-- PARAM SUMMARY -->
+<div class="summary-grid">
+  <div class="summary-card">
+    <h3>Input Config</h3>
+    <div class="param-row"><span>Window size</span><span class="val">30 timesteps</span></div>
+    <div class="param-row"><span>Features</span><span class="val">17</span></div>
+    <div class="param-row"><span>Input shape</span><span class="val">(30, 17)</span></div>
+    <div class="param-row"><span>Scaler</span><span class="val">MinMaxScaler</span></div>
+  </div>
+  <div class="summary-card">
+    <h3>Encoder Stack</h3>
+    <div class="param-row"><span>LSTM Layer 1</span><span class="val">64 units</span></div>
+    <div class="param-row"><span>return_sequences</span><span class="val">True</span></div>
+    <div class="param-row"><span>LSTM Layer 2</span><span class="val">32 units</span></div>
+    <div class="param-row"><span>return_sequences</span><span class="val">False</span></div>
+    <div class="param-row"><span>Latent Dense</span><span class="val">16 (ReLU)</span></div>
+  </div>
+  <div class="summary-card">
+    <h3>Decoder Stack</h3>
+    <div class="param-row"><span>RepeatVector</span><span class="val">30×16</span></div>
+    <div class="param-row"><span>LSTM Layer 1</span><span class="val">32 units</span></div>
+    <div class="param-row"><span>LSTM Layer 2</span><span class="val">64 units</span></div>
+    <div class="param-row"><span>TimeDistributed</span><span class="val">Dense(17)</span></div>
+  </div>
+  <div class="summary-card">
+    <h3>Training</h3>
+    <div class="param-row"><span>Optimizer</span><span class="val">Adam</span></div>
+    <div class="param-row"><span>LR</span><span class="val">0.001</span></div>
+    <div class="param-row"><span>Loss</span><span class="val">MSE</span></div>
+    <div class="param-row"><span>EarlyStopping</span><span class="val">patience=10</span></div>
+    <div class="param-row"><span>Dropout</span><span class="val">0.1</span></div>
+  </div>
+  <div class="summary-card">
+    <h3>Anomaly Detection</h3>
+    <div class="param-row"><span>Error metric</span><span class="val">MSE per window</span></div>
+    <div class="param-row"><span>Threshold</span><span class="val">μ + 3σ (train)</span></div>
+    <div class="param-row"><span>Approach</span><span class="val">Unsupervised</span></div>
+    <div class="param-row"><span>Labels required</span><span class="val">None</span></div>
+  </div>
+  <div class="summary-card">
+    <h3>Next Steps</h3>
+    <div class="param-row"><span>Log pipeline</span><span class="val">LSTM-AE on logs</span></div>
+    <div class="param-row"><span>Fusion</span><span class="val">Decision-level</span></div>
+    <div class="param-row"><span>XAI</span><span class="val">SHAP / feat-MSE</span></div>
+    <div class="param-row"><span>Alerting</span><span class="val">Graded (L/M/H)</span></div>
+  </div>
+</div>
+
+</body>
+</html>
