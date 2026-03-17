@@ -15,3 +15,6 @@ the-building-data-genome-project/
 # === OS junk ===
 .DS_Store
 Thumbs.db
+
+# === Data ===
+data/
