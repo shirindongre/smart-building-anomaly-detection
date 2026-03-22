@@ -10,6 +10,10 @@ import matplotlib.gridspec as gridspec
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from keras.callbacks import EarlyStopping, ModelCheckpoint
+from preprocessing import preprocess_building
+from feature_engineering import engineer_features
+from scaling import scale_features
+from sequence_creations import create_sequences
 
 # Global Configurations
 from config import CONFIG
@@ -23,7 +27,6 @@ os.makedirs(CONFIG["output_dir"], exist_ok=True)
 # Data Loading and Preprocessing
 #-----------------------------------------------------------
 
-from preprocessing import preprocess_building
 
 # Dataset importing
 df_wide = pd.read_csv(CONFIG["data_url"])
@@ -33,7 +36,6 @@ print(df_wide.head())
 print(f"Dataset shape: {df_wide.shape}")
 print(f"Total buildings: {len(df_wide.columns)}")
 
-from feature_engineering import engineer_features
 META_PATH = CONFIG["meta_url"]
 meta = pd.read_csv(META_PATH)
 
@@ -54,7 +56,6 @@ for building in selected_buildings:
     print(f"  Features shape: {df_features.shape}")
     
     # Scaling 
-    from scaling import scale_features
     X_train_sc, X_test_sc, scaler, split_idx = scale_features(
         df           = df_features,
         feature_cols = FEATURE_COLS,
@@ -62,7 +63,6 @@ for building in selected_buildings:
     )
 
     # Step D — sliding windows
-    from sequence_creations import create_sequences
     X_train_seq = create_sequences(X_train_sc, CONFIG["Window_SIZE"])
     X_test_seq  = create_sequences(X_test_sc,  CONFIG["Window_SIZE"])
 
