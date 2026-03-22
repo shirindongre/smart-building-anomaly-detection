@@ -1,0 +1,28 @@
+This plot overlays the raw energy consumption signal (grey line) with the detected anomaly points (red dots) to show exactly 
+where and when anomalies occur in the physical energy data.
+
+
+What the plot shows:
+The grey signal reveals the building's characteristic operational pattern — regular sharp daily peaks reaching 10–12 units during
+working hours, dropping to near-zero at night and weekends. This is a typical primary school energy profile: high consumption 
+during school hours, minimal consumption outside them.
+
+
+Key observations:
+The red anomaly dots cluster in four distinct temporal regions, each corresponding to one of the MSE spikes seen in Diagram 1. 
+
+Looking carefully at where the dots appear:
+The anomalies are concentrated at transition zones — specifically at points where the energy drops sharply from a high operating 
+state to near-zero, or where the signal exhibits unusual sustained low values between periods of normal high activity. These are 
+not occurring at the peaks of consumption (which would indicate overconsumption anomalies) but rather at the valleys and 
+boundaries between operating and non-operating states.
+This pattern is physically meaningful for a school building. It suggests the model is detecting events such as unexpected early 
+shutdowns where energy drops to zero mid-week during what should be a normal operating period, unusually extended low-energy 
+periods that break the expected weekly rhythm, and boundary events where the transition between high and low states is sharper 
+or slower than the model has learnt as normal.
+The fact that regular weekend drops and overnight shutdowns are not flagged as anomalies confirms that the model has correctly 
+learnt these periodic patterns as normal behaviour. It is only the irregular or unexpected versions of these transitions that are 
+being flagged.
+The anomaly at late November 2015 producing the highest MSE (0.050) corresponds to a cluster of red dots that spans a prolonged 
+period, suggesting this may have been an extended operational disruption — possibly a building closure, HVAC fault, or maintenance 
+period — rather than a brief event.

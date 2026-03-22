@@ -1,17 +1,25 @@
+# scripts/preprocessing.py
+
 import pandas as pd
 
-def preprocess_building(file_path):
+def preprocess_building(df_wide: pd.DataFrame, building: str) -> pd.DataFrame:
+    """
+    Extract one building column from the wide DataFrame,
+    clean and resample to hourly.
+    """
+    if building not in df_wide.columns:
+        print(f"  [SKIP] {building} not found in dataset")
+        return None
 
-    df = pd.read_csv(file_path)
+    # Pull just this building's column and rename to 'energy'
+    df = df_wide[[building]].copy()
+    df.columns = ["energy"]
 
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
-
-    df = df.sort_values("timestamp")
-
-    df = df.set_index("timestamp")
-
+    # Resample to hourly
     df_hr = df.resample("1h").sum(min_count=1)
 
-    df_valid = df_hr.loc[df_hr["energy"].notna()]
+    # Drop rows where energy is NaN
+    df_clean = df_hr.loc[df_hr["energy"].notna()].copy()
 
-    return df_valid
+    print(f"  {building}: {len(df_clean)} valid rows")
+    return df_clean

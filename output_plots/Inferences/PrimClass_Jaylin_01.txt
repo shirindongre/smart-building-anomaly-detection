@@ -1,0 +1,21 @@
+This plot tracks the model's reconstruction error (MSE) at every timestep across the full year of 2014–2015 for PrimClass_Jaylin.
+
+
+What the plot shows:
+The grey line represents how well the LSTM Autoencoder reconstructed each 24-timestep window. The red dashed line at 
+MSE = 0.0214 is the anomaly threshold derived from μ + 3σ of training errors. The pink shaded regions are windows where 
+reconstruction error exceeded this threshold — flagged as anomalies.
+
+
+Key observations:
+The baseline reconstruction error for this building sits consistently between 0.005 and 0.015 across the entire year, which is 
+well below the threshold. This confirms that the model has successfully learnt the normal operational patterns of 
+PrimClass_Jaylin — the regular daily energy cycles, weekend dips, and seasonal variations are all being reconstructed accurately.
+
+There are four distinct spikes that cross the threshold — one around late April 2015 reaching 0.038 MSE, one around late June 2015
+reaching 0.030 MSE, one in early September 2015 reaching 0.028 MSE, and the largest spike in late November 2015 reaching nearly
+0.050 MSE. Each of these spikes is narrow and sharp rather than gradual, which tells us the anomalies are abrupt events rather 
+than slow drifts. This is characteristic of equipment faults, sudden setpoint changes, or occupancy-driven operational shifts.
+
+The fact that the error returns to baseline immediately after each spike confirms that these are isolated anomalous events rather
+than permanent regime changes — the building returns to its normal operational pattern after each disruption.

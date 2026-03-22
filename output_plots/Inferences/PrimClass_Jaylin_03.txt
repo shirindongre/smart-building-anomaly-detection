@@ -1,0 +1,22 @@
+This histogram shows the statistical distribution of reconstruction errors across all windows, separating training errors (blue) 
+from all errors (orange), with the threshold line in red.
+
+What the plot shows:
+The x-axis shows MSE values and the y-axis shows the density of windows at each error level. The blue bars represent only the 
+training portion of the data; the orange bars represent the combined training and test errors.
+
+Key observations:
+Both distributions are right-skewed and peak sharply around MSE = 0.005–0.008. This is a healthy and expected shape for a 
+well-trained autoencoder — the vast majority of windows are reconstructed with very low error, indicating the model has 
+confidently learnt the dominant normal patterns.
+The two distributions — train errors and all errors — overlap almost perfectly throughout the bulk of the distribution. 
+This is a strong positive signal: it means the test data follows essentially the same statistical distribution as the training 
+data, confirming that the model generalises well and has not overfit to the specific training windows.
+The threshold at 0.0214 sits far to the right of the peak, in the extreme tail of the distribution. There are very few windows 
+between 0.021 and 0.050, and virtually none beyond 0.050. This confirms that the μ + 3σ threshold is correctly calibrated — 
+it captures 99.7% of normal behaviour under the Gaussian assumption and only flags the most statistically extreme deviations 
+as anomalies.
+The slight orange extension beyond the blue in the tail (between 0.025 and 0.050) represents the anomalous windows in the test 
+set. The fact that this tail extension is small and sparse — not a secondary peak — confirms that anomalies are rare and 
+genuinely distinct from normal behaviour, rather than a gradual continuum. This validates the unsupervised anomaly detection 
+approach: the model has learnt a clean boundary between normal and abnormal without any labelled fault data.
