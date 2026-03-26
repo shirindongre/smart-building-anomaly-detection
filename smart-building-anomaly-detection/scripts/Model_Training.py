@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # 0 = all logs, 1 = info, 2 = warnings, 3 = errors only
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' 
 import numpy as np
 import pandas as pd
 import matplotlib
