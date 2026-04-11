@@ -1,27 +1,40 @@
 import os
+from pathlib import Path
+import sys
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # 0 = all logs, 1 = info, 2 = warnings, 3 = errors only
 import numpy as np
 import pandas as pd
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_PROCESSED_DIR = _PROJECT_ROOT / "data" / "processed"
+_SCRIPT_DIR = Path(__file__).resolve().parent
+for p in (_PROJECT_ROOT, _SCRIPT_DIR):
+    s = str(p)
+    if s not in sys.path:
+        sys.path.insert(0, s)
 import matplotlib
 matplotlib.use("Agg")              # Use non-interactive backend for file saving
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+import joblib
 
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from keras.callbacks import EarlyStopping, ModelCheckpoint
-from preprocessing import preprocess_building
-from feature_engineering import engineer_features
-from scaling import scale_features
-from sequence_creations import create_sequences
+from scripts.preprocessing import preprocess_building
+from scripts.feature_engineering import engineer_features
+from scripts.scaling import scale_features
+from scripts.sequence_creations import create_sequences
 
 # Global Configurations
-from config import CONFIG
+from src.config import CONFIG
 # Reproducibility
 np.random.seed(CONFIG["seed"])
 tf.random.set_seed(CONFIG["seed"])
 
-os.makedirs(CONFIG["output_dir"], exist_ok=True)
+_output_dir = _PROJECT_ROOT / CONFIG["output_dir"]
+_output_dir.mkdir(parents=True, exist_ok=True)
 
 #-----------------------------------------------------------
 # Data Loading and Preprocessing
@@ -39,32 +52,42 @@ print(f"Total buildings: {len(df_wide.columns)}")
 META_PATH = CONFIG["meta_url"]
 meta = pd.read_csv(META_PATH)
 
-from config import FEATURE_COLS
+from src.config import FEATURE_COLS
+from src.config import BUILDINGS
 
-selected_buildings = list(df_wide.columns[0:4])  # Select the first five buildings for analysis
+selected_buildings = BUILDINGS  # Select the first five buildings for analysis
 
 building_data = {}
 
 for building in selected_buildings:
-    # Data preprocessing
     df_clean = preprocess_building(df_wide, building)
-    if df_clean is not None and len(df_clean) > 500:
-        building_data[building] = df_clean
+    if df_clean is None or len(df_clean) <= 500:
+        print(f"  [SKIP] {building}: insufficient rows or missing from wide dataset")
+        continue
 
-    # Feature engineering
+    building_data[building] = df_clean
+
     df_features = engineer_features(df_clean, building, meta)
     print(f"  Features shape: {df_features.shape}")
-    
-    # Scaling 
+
+    # Per-building CSV for testing (load → scale → sequence → predict; no wide table at inference)
+    _PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    out_csv = _PROCESSED_DIR / f"{building}.csv"
+    df_features.reset_index().to_csv(out_csv, index=False)
+    print(f"  Saved {out_csv}")
+
     X_train_sc, X_test_sc, scaler, split_idx = scale_features(
-        df           = df_features,
-        feature_cols = FEATURE_COLS,
-        test_split   = 0.2
+        df=df_features,
+        feature_cols=FEATURE_COLS,
+        test_split=CONFIG["test_split"],
     )
+    _scalers_dir = _PROJECT_ROOT / "scalers"
+    _scalers_dir.mkdir(parents=True, exist_ok=True)
+    joblib.dump(scaler, _scalers_dir / f"{building}_scaler.pkl")
 
     # Step D — sliding windows
-    X_train_seq = create_sequences(X_train_sc, CONFIG["Window_SIZE"])
-    X_test_seq  = create_sequences(X_test_sc,  CONFIG["Window_SIZE"])
+    X_train_seq = create_sequences(X_train_sc, CONFIG["window_size"])
+    X_test_seq = create_sequences(X_test_sc, CONFIG["window_size"])
 
     print(f"  Train windows  : {X_train_seq.shape}")   # (n_windows, 30, n_features)
     print(f"  Test windows   : {X_test_seq.shape}")
@@ -81,7 +104,10 @@ for building in selected_buildings:
 
 print(f"\nReady: {len(building_data)} buildings")
 
-sample = building_data[selected_buildings[0]]
+if not building_data:
+    raise SystemExit("No buildings processed — check BUILDINGS and wide dataset columns.")
+
+sample = building_data[next(iter(building_data))]
 print("\nTrain shape :", sample["X_train"].shape)
 print("Test shape  :", sample["X_test"].shape)
 print("Features per step:", sample["X_train"].shape[2])
@@ -91,7 +117,7 @@ print("Features per step:", sample["X_train"].shape[2])
 # Model Implemenntation
 #-----------------------------------------------------------
 
-from Model_Architechture import build_lstm_autoencoder
+from scripts.Model_Architechture import build_lstm_autoencoder
 
 trained_models = {}
 
@@ -122,14 +148,14 @@ for building, data in building_data.items():
             verbose=1
         ),
         ModelCheckpoint(
-            filepath=f"models/{building}_best.h5",
+            filepath=str(_PROJECT_ROOT / CONFIG["model_dir"] / f"{building}_best.h5"),
             monitor="val_loss",
             save_best_only=True,
             verbose=0
         ),
     ]
 
-    os.makedirs("models", exist_ok=True)
+    (_PROJECT_ROOT / CONFIG["model_dir"]).mkdir(parents=True, exist_ok=True)
 
     # autoencoder training — input == target
     history = model.fit(
@@ -156,8 +182,8 @@ for building, data in building_data.items():
     plt.ylabel("MSE")
     plt.legend()
     plt.tight_layout()
-    os.makedirs("output_plots", exist_ok=True)
-    plt.savefig(f"output_plots/{building}_loss.png")
+    _output_dir.mkdir(parents=True, exist_ok=True)
+    plt.savefig(_output_dir / f"{building}_loss.png")
     plt.close()
     print(f"  Loss plot saved for {building}")
 
