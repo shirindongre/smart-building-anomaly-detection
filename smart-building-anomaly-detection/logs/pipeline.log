@@ -1,0 +1,1036 @@
+2026-03-16 15:05:26,313 - INFO - Processing 1/3: Office_Maryann
+2026-03-16 15:05:26,445 - ERROR - Failed Office_Maryann: Already tz-aware, use tz_convert to convert.
+2026-03-16 15:05:26,445 - INFO - Processing 2/3: Office_Mick
+2026-03-16 15:05:26,555 - ERROR - Failed Office_Mick: Already tz-aware, use tz_convert to convert.
+2026-03-16 15:05:26,555 - INFO - Processing 3/3: PrimClass_Uma
+2026-03-16 15:05:26,701 - ERROR - Failed PrimClass_Uma: Already tz-aware, use tz_convert to convert.
+2026-03-16 15:11:37,332 - INFO - Processing 1/3: Office_Maryann
+2026-03-16 15:11:37,722 - INFO - Saved Office_Maryann with shape (8592, 17)
+2026-03-16 15:11:37,722 - INFO - Processing 2/3: Office_Mick
+2026-03-16 15:11:38,070 - INFO - Saved Office_Mick with shape (8592, 17)
+2026-03-16 15:11:38,072 - INFO - Processing 3/3: PrimClass_Uma
+2026-03-16 15:11:38,363 - INFO - Saved PrimClass_Uma with shape (8592, 17)
+2026-03-16 18:16:39,337 - INFO - Processing 1/507: Office_Abbey
+2026-03-16 18:16:39,641 - INFO - Saved Office_Abbey with shape (8592, 17)
+2026-03-16 18:16:39,642 - INFO - Processing 2/507: Office_Abigail
+2026-03-16 18:16:39,865 - INFO - Saved Office_Abigail with shape (8592, 17)
+2026-03-16 18:16:39,865 - INFO - Processing 3/507: Office_Al
+2026-03-16 18:16:40,151 - INFO - Saved Office_Al with shape (8592, 17)
+2026-03-16 18:16:40,151 - INFO - Processing 4/507: Office_Alannah
+2026-03-16 18:16:40,415 - INFO - Saved Office_Alannah with shape (8592, 17)
+2026-03-16 18:16:40,415 - INFO - Processing 5/507: Office_Aliyah
+2026-03-16 18:16:40,651 - INFO - Saved Office_Aliyah with shape (8592, 17)
+2026-03-16 18:17:14,324 - INFO - Processing 1/507: Office_Abbey
+2026-03-16 18:17:14,659 - INFO - Saved Office_Abbey with shape (8592, 17)
+2026-03-16 18:17:14,659 - INFO - Processing 2/507: Office_Abigail
+2026-03-16 18:17:14,981 - INFO - Saved Office_Abigail with shape (8592, 17)
+2026-03-16 18:17:14,981 - INFO - Processing 3/507: Office_Al
+2026-03-16 18:17:15,201 - INFO - Saved Office_Al with shape (8592, 17)
+2026-03-16 18:17:15,201 - INFO - Processing 4/507: Office_Alannah
+2026-03-16 18:17:15,431 - INFO - Saved Office_Alannah with shape (8592, 17)
+2026-03-16 18:17:15,431 - INFO - Processing 5/507: Office_Aliyah
+2026-03-16 18:17:15,650 - INFO - Saved Office_Aliyah with shape (8592, 17)
+2026-03-16 18:17:15,650 - INFO - Processing 6/507: Office_Allyson
+2026-03-16 18:17:16,007 - INFO - Saved Office_Allyson with shape (8592, 17)
+2026-03-16 18:17:16,007 - INFO - Processing 7/507: Office_Alyson
+2026-03-16 18:17:16,235 - INFO - Saved Office_Alyson with shape (8592, 17)
+2026-03-16 18:17:16,235 - INFO - Processing 8/507: Office_Amelia
+2026-03-16 18:17:16,462 - INFO - Saved Office_Amelia with shape (8592, 17)
+2026-03-16 18:17:16,462 - INFO - Processing 9/507: Office_Amelie
+2026-03-16 18:17:16,711 - INFO - Saved Office_Amelie with shape (8592, 17)
+2026-03-16 18:17:16,711 - INFO - Processing 10/507: Office_Anastasia
+2026-03-16 18:17:16,940 - INFO - Saved Office_Anastasia with shape (8592, 17)
+2026-03-16 18:17:16,940 - INFO - Processing 11/507: Office_Andrea
+2026-03-16 18:17:17,319 - INFO - Saved Office_Andrea with shape (8592, 17)
+2026-03-16 18:17:17,320 - INFO - Processing 12/507: Office_Angelica
+2026-03-16 18:17:17,555 - INFO - Saved Office_Angelica with shape (8592, 17)
+2026-03-16 18:17:17,556 - INFO - Processing 13/507: Office_Angelina
+2026-03-16 18:17:17,779 - INFO - Saved Office_Angelina with shape (8592, 17)
+2026-03-16 18:17:17,780 - INFO - Processing 14/507: Office_Angelo
+2026-03-16 18:17:18,003 - INFO - Saved Office_Angelo with shape (8592, 17)
+2026-03-16 18:17:18,003 - INFO - Processing 15/507: Office_Annika
+2026-03-16 18:17:18,230 - INFO - Saved Office_Annika with shape (8592, 17)
+2026-03-16 18:17:18,230 - INFO - Processing 16/507: Office_Ashanti
+2026-03-16 18:17:18,470 - INFO - Saved Office_Ashanti with shape (8592, 17)
+2026-03-16 18:17:18,470 - INFO - Processing 17/507: Office_Asher
+2026-03-16 18:17:18,754 - INFO - Saved Office_Asher with shape (8592, 17)
+2026-03-16 18:17:18,754 - INFO - Processing 18/507: Office_Aubrey
+2026-03-16 18:17:18,986 - INFO - Saved Office_Aubrey with shape (8592, 17)
+2026-03-16 18:17:18,986 - INFO - Processing 19/507: Office_Autumn
+2026-03-16 18:17:19,210 - INFO - Saved Office_Autumn with shape (8592, 17)
+2026-03-16 18:17:19,210 - INFO - Processing 20/507: Office_Ava
+2026-03-16 18:17:19,442 - INFO - Saved Office_Ava with shape (8592, 17)
+2026-03-16 18:17:19,442 - INFO - Processing 21/507: Office_Ayden
+2026-03-16 18:17:19,676 - INFO - Saved Office_Ayden with shape (8592, 17)
+2026-03-16 18:17:19,676 - INFO - Processing 22/507: Office_Ayesha
+2026-03-16 18:17:20,038 - INFO - Saved Office_Ayesha with shape (8592, 17)
+2026-03-16 18:17:20,038 - INFO - Processing 23/507: Office_Benjamin
+2026-03-16 18:17:20,253 - INFO - Saved Office_Benjamin with shape (8616, 17)
+2026-03-16 18:17:20,253 - INFO - Processing 24/507: Office_Benthe
+2026-03-16 18:17:20,512 - INFO - Saved Office_Benthe with shape (8616, 17)
+2026-03-16 18:17:20,512 - INFO - Processing 25/507: Office_Bianca
+2026-03-16 18:17:20,755 - INFO - Saved Office_Bianca with shape (8616, 17)
+2026-03-16 18:17:20,755 - INFO - Processing 26/507: Office_Bobbi
+2026-03-16 18:17:20,985 - INFO - Saved Office_Bobbi with shape (8616, 17)
+2026-03-16 18:17:20,986 - INFO - Processing 27/507: Office_Brian
+2026-03-16 18:17:21,324 - INFO - Saved Office_Brian with shape (8616, 17)
+2026-03-16 18:17:21,324 - INFO - Processing 28/507: Office_Bryon
+2026-03-16 18:17:21,564 - INFO - Saved Office_Bryon with shape (8616, 17)
+2026-03-16 18:17:21,564 - INFO - Processing 29/507: Office_Caleb
+2026-03-16 18:17:21,797 - INFO - Saved Office_Caleb with shape (8592, 17)
+2026-03-16 18:17:21,797 - INFO - Processing 30/507: Office_Cameron
+2026-03-16 18:17:22,043 - INFO - Saved Office_Cameron with shape (8592, 17)
+2026-03-16 18:17:22,043 - INFO - Processing 31/507: Office_Carissa
+2026-03-16 18:17:22,275 - INFO - Saved Office_Carissa with shape (8592, 17)
+2026-03-16 18:17:22,275 - INFO - Processing 32/507: Office_Carolina
+2026-03-16 18:17:22,511 - INFO - Saved Office_Carolina with shape (8592, 17)
+2026-03-16 18:17:22,512 - INFO - Processing 33/507: Office_Catherine
+2026-03-16 18:17:22,756 - INFO - Saved Office_Catherine with shape (8592, 17)
+2026-03-16 18:17:22,756 - INFO - Processing 34/507: Office_Cecelia
+2026-03-16 18:17:22,981 - INFO - Saved Office_Cecelia with shape (8592, 17)
+2026-03-16 18:17:22,982 - INFO - Processing 35/507: Office_Charles
+2026-03-16 18:17:23,218 - INFO - Saved Office_Charles with shape (8592, 17)
+2026-03-16 18:17:23,219 - INFO - Processing 36/507: Office_Clarissa
+2026-03-16 18:17:23,447 - INFO - Saved Office_Clarissa with shape (8592, 17)
+2026-03-16 18:17:23,447 - INFO - Processing 37/507: Office_Clifton
+2026-03-16 18:17:23,679 - INFO - Saved Office_Clifton with shape (8592, 17)
+2026-03-16 18:17:23,679 - INFO - Processing 38/507: Office_Clinton
+2026-03-16 18:17:24,176 - INFO - Saved Office_Clinton with shape (8592, 17)
+2026-03-16 18:17:24,176 - INFO - Processing 39/507: Office_Cody
+2026-03-16 18:17:24,407 - INFO - Saved Office_Cody with shape (8592, 17)
+2026-03-16 18:17:24,407 - INFO - Processing 40/507: Office_Colby
+2026-03-16 18:17:24,633 - INFO - Saved Office_Colby with shape (8592, 17)
+2026-03-16 18:17:24,634 - INFO - Processing 41/507: Office_Conrad
+2026-03-16 18:17:24,865 - INFO - Saved Office_Conrad with shape (8592, 17)
+2026-03-16 18:17:24,865 - INFO - Processing 42/507: Office_Cora
+2026-03-16 18:17:25,100 - INFO - Saved Office_Cora with shape (8592, 17)
+2026-03-16 18:17:25,100 - INFO - Processing 43/507: Office_Corbin
+2026-03-16 18:17:25,489 - INFO - Saved Office_Corbin with shape (8592, 17)
+2026-03-16 18:17:25,489 - INFO - Processing 44/507: Office_Cristina
+2026-03-16 18:17:25,729 - INFO - Saved Office_Cristina with shape (8592, 17)
+2026-03-16 18:17:25,729 - INFO - Processing 45/507: Office_Curt
+2026-03-16 18:17:25,964 - INFO - Saved Office_Curt with shape (8592, 17)
+2026-03-16 18:17:25,964 - INFO - Processing 46/507: Office_Dawn
+2026-03-16 18:17:26,188 - INFO - Saved Office_Dawn with shape (8592, 17)
+2026-03-16 18:17:26,189 - INFO - Processing 47/507: Office_Dorian
+2026-03-16 18:17:26,426 - INFO - Saved Office_Dorian with shape (8592, 17)
+2026-03-16 18:17:26,426 - INFO - Processing 48/507: Office_Eddie
+2026-03-16 18:17:26,849 - INFO - Saved Office_Eddie with shape (8616, 17)
+2026-03-16 18:17:26,849 - INFO - Processing 49/507: Office_Eileen
+2026-03-16 18:17:27,083 - INFO - Saved Office_Eileen with shape (8616, 17)
+2026-03-16 18:17:27,083 - INFO - Processing 50/507: Office_Elena
+2026-03-16 18:17:27,328 - INFO - Saved Office_Elena with shape (8616, 17)
+2026-03-16 18:17:27,328 - INFO - Processing 51/507: Office_Elizabeth
+2026-03-16 18:17:27,571 - INFO - Saved Office_Elizabeth with shape (8616, 17)
+2026-03-16 18:17:27,571 - INFO - Processing 52/507: Office_Ellie
+2026-03-16 18:17:27,815 - INFO - Saved Office_Ellie with shape (8616, 17)
+2026-03-16 18:17:27,815 - INFO - Processing 53/507: Office_Elliot
+2026-03-16 18:17:28,213 - INFO - Saved Office_Elliot with shape (8616, 17)
+2026-03-16 18:17:28,213 - INFO - Processing 54/507: Office_Ellis
+2026-03-16 18:17:28,469 - INFO - Saved Office_Ellis with shape (8616, 17)
+2026-03-16 18:17:28,469 - INFO - Processing 55/507: Office_Emer
+2026-03-16 18:17:28,702 - INFO - Saved Office_Emer with shape (8616, 17)
+2026-03-16 18:17:28,702 - INFO - Processing 56/507: Office_Emerald
+2026-03-16 18:17:28,953 - INFO - Saved Office_Emerald with shape (8616, 17)
+2026-03-16 18:17:28,953 - INFO - Processing 57/507: Office_Erik
+2026-03-16 18:17:29,211 - INFO - Saved Office_Erik with shape (8616, 17)
+2026-03-16 18:17:29,211 - INFO - Processing 58/507: Office_Evelyn
+2026-03-16 18:17:29,588 - INFO - Saved Office_Evelyn with shape (8616, 17)
+2026-03-16 18:17:29,588 - INFO - Processing 59/507: Office_Gabriela
+2026-03-16 18:17:29,838 - INFO - Saved Office_Gabriela with shape (8592, 17)
+2026-03-16 18:17:29,838 - INFO - Processing 60/507: Office_Garman
+2026-03-16 18:17:30,092 - INFO - Saved Office_Garman with shape (8592, 17)
+2026-03-16 18:17:30,092 - INFO - Processing 61/507: Office_Garrett
+2026-03-16 18:17:30,380 - INFO - Saved Office_Garrett with shape (8592, 17)
+2026-03-16 18:17:30,380 - INFO - Processing 62/507: Office_Gemma
+2026-03-16 18:17:30,846 - INFO - Saved Office_Gemma with shape (8592, 17)
+2026-03-16 18:17:30,846 - INFO - Processing 63/507: Office_Georgia
+2026-03-16 18:17:31,164 - INFO - Saved Office_Georgia with shape (8592, 17)
+2026-03-16 18:17:31,165 - INFO - Processing 64/507: Office_Gisselle
+2026-03-16 18:17:31,417 - INFO - Saved Office_Gisselle with shape (8592, 17)
+2026-03-16 18:17:31,417 - INFO - Processing 65/507: Office_Gladys
+2026-03-16 18:17:31,680 - INFO - Saved Office_Gladys with shape (8592, 17)
+2026-03-16 18:17:31,680 - INFO - Processing 66/507: Office_Glenda
+2026-03-16 18:17:31,984 - INFO - Saved Office_Glenda with shape (8592, 17)
+2026-03-16 18:17:31,984 - INFO - Processing 67/507: Office_Glenn
+2026-03-16 18:17:32,245 - INFO - Saved Office_Glenn with shape (8592, 17)
+2026-03-16 18:17:32,245 - INFO - Processing 68/507: Office_Gloria
+2026-03-16 18:17:32,480 - INFO - Saved Office_Gloria with shape (8592, 17)
+2026-03-16 18:17:32,480 - INFO - Processing 69/507: Office_Guillermo
+2026-03-16 18:17:32,719 - INFO - Saved Office_Guillermo with shape (8592, 17)
+2026-03-16 18:17:32,719 - INFO - Processing 70/507: Office_Gustavo
+2026-03-16 18:17:32,963 - INFO - Saved Office_Gustavo with shape (8592, 17)
+2026-03-16 18:17:32,963 - INFO - Processing 71/507: Office_Jackie
+2026-03-16 18:17:33,211 - INFO - Saved Office_Jackie with shape (8592, 17)
+2026-03-16 18:17:33,211 - INFO - Processing 72/507: Office_Jackson
+2026-03-16 18:17:33,595 - INFO - Saved Office_Jackson with shape (8592, 17)
+2026-03-16 18:17:33,595 - INFO - Processing 73/507: Office_Jan
+2026-03-16 18:17:33,869 - INFO - Saved Office_Jan with shape (8592, 17)
+2026-03-16 18:17:33,869 - INFO - Processing 74/507: Office_Javon
+2026-03-16 18:17:34,122 - INFO - Saved Office_Javon with shape (8592, 17)
+2026-03-16 18:17:34,122 - INFO - Processing 75/507: Office_Jayden
+2026-03-16 18:17:34,391 - INFO - Saved Office_Jayden with shape (8592, 17)
+2026-03-16 18:17:34,391 - INFO - Processing 76/507: Office_Jeanne
+2026-03-16 18:17:34,752 - INFO - Saved Office_Jeanne with shape (8592, 17)
+2026-03-16 18:17:34,752 - INFO - Processing 77/507: Office_Jerry
+2026-03-16 18:17:35,067 - INFO - Saved Office_Jerry with shape (8592, 17)
+2026-03-16 18:17:35,067 - INFO - Processing 78/507: Office_Jesus
+2026-03-16 18:17:35,324 - INFO - Saved Office_Jesus with shape (8592, 17)
+2026-03-16 18:17:35,324 - INFO - Processing 79/507: Office_Jett
+2026-03-16 18:17:35,579 - INFO - Saved Office_Jett with shape (8592, 17)
+2026-03-16 18:17:35,579 - INFO - Processing 80/507: Office_Joan
+2026-03-16 18:17:35,822 - INFO - Saved Office_Joan with shape (8592, 17)
+2026-03-16 18:17:35,822 - INFO - Processing 81/507: Office_John
+2026-03-16 18:17:36,078 - INFO - Saved Office_John with shape (8592, 17)
+2026-03-16 18:17:36,078 - INFO - Processing 82/507: Office_Joni
+2026-03-16 18:17:36,443 - INFO - Saved Office_Joni with shape (8592, 17)
+2026-03-16 18:17:36,443 - INFO - Processing 83/507: Office_Jude
+2026-03-16 18:17:36,726 - INFO - Saved Office_Jude with shape (8592, 17)
+2026-03-16 18:17:36,726 - INFO - Processing 84/507: Office_Lane
+2026-03-16 18:17:37,110 - INFO - Saved Office_Lane with shape (8592, 17)
+2026-03-16 18:17:37,110 - INFO - Processing 85/507: Office_Leland
+2026-03-16 18:17:37,401 - INFO - Saved Office_Leland with shape (8592, 17)
+2026-03-16 18:17:37,401 - INFO - Processing 86/507: Office_Lena
+2026-03-16 18:17:37,908 - INFO - Saved Office_Lena with shape (8592, 17)
+2026-03-16 18:17:37,908 - INFO - Processing 87/507: Office_Lesa
+2026-03-16 18:17:38,242 - INFO - Saved Office_Lesa with shape (8592, 17)
+2026-03-16 18:17:38,242 - INFO - Processing 88/507: Office_Lillian
+2026-03-16 18:17:38,570 - INFO - Saved Office_Lillian with shape (8592, 17)
+2026-03-16 18:17:38,570 - INFO - Processing 89/507: Office_Louise
+2026-03-16 18:17:38,831 - INFO - Saved Office_Louise with shape (8592, 17)
+2026-03-16 18:17:38,831 - INFO - Processing 90/507: Office_Luann
+2026-03-16 18:17:39,124 - INFO - Saved Office_Luann with shape (8592, 17)
+2026-03-16 18:17:39,124 - INFO - Processing 91/507: Office_Mada
+2026-03-16 18:17:39,391 - INFO - Saved Office_Mada with shape (8592, 17)
+2026-03-16 18:17:39,391 - INFO - Processing 92/507: Office_Madeleine
+2026-03-16 18:17:39,655 - INFO - Saved Office_Madeleine with shape (8592, 17)
+2026-03-16 18:17:39,655 - INFO - Processing 93/507: Office_Madisyn
+2026-03-16 18:17:39,888 - INFO - Saved Office_Madisyn with shape (8592, 17)
+2026-03-16 18:17:39,888 - INFO - Processing 94/507: Office_Malik
+2026-03-16 18:17:40,110 - INFO - Saved Office_Malik with shape (8592, 17)
+2026-03-16 18:17:40,110 - INFO - Processing 95/507: Office_Marc
+2026-03-16 18:17:40,501 - INFO - Saved Office_Marc with shape (8592, 17)
+2026-03-16 18:17:40,501 - INFO - Processing 96/507: Office_Marcia
+2026-03-16 18:17:40,739 - INFO - Saved Office_Marcia with shape (8592, 17)
+2026-03-16 18:17:40,739 - INFO - Processing 97/507: Office_Marcus
+2026-03-16 18:17:40,963 - INFO - Saved Office_Marcus with shape (8592, 17)
+2026-03-16 18:17:40,963 - INFO - Processing 98/507: Office_Marianne
+2026-03-16 18:17:41,196 - INFO - Saved Office_Marianne with shape (8592, 17)
+2026-03-16 18:17:41,196 - INFO - Processing 99/507: Office_Marilyn
+2026-03-16 18:17:41,418 - INFO - Saved Office_Marilyn with shape (8592, 17)
+2026-03-16 18:17:41,418 - INFO - Processing 100/507: Office_Marion
+2026-03-16 18:17:41,746 - INFO - Saved Office_Marion with shape (8592, 17)
+2026-03-16 18:17:41,746 - INFO - Processing 101/507: Office_Mark
+2026-03-16 18:17:41,973 - INFO - Saved Office_Mark with shape (8592, 17)
+2026-03-16 18:17:41,973 - INFO - Processing 102/507: Office_Marla
+2026-03-16 18:17:42,202 - INFO - Saved Office_Marla with shape (8592, 17)
+2026-03-16 18:17:42,203 - INFO - Processing 103/507: Office_Marlon
+2026-03-16 18:17:42,434 - INFO - Saved Office_Marlon with shape (8592, 17)
+2026-03-16 18:17:42,434 - INFO - Processing 104/507: Office_Martha
+2026-03-16 18:17:42,663 - INFO - Saved Office_Martha with shape (8592, 17)
+2026-03-16 18:17:42,663 - INFO - Processing 105/507: Office_Martin
+2026-03-16 18:17:42,917 - INFO - Saved Office_Martin with shape (8592, 17)
+2026-03-16 18:17:42,917 - INFO - Processing 106/507: Office_Marvin
+2026-03-16 18:17:43,173 - INFO - Saved Office_Marvin with shape (8592, 17)
+2026-03-16 18:17:43,174 - INFO - Processing 107/507: Office_Mary
+2026-03-16 18:17:43,393 - INFO - Saved Office_Mary with shape (8592, 17)
+2026-03-16 18:17:43,393 - INFO - Processing 108/507: Office_Maryann
+2026-03-16 18:17:43,708 - INFO - Saved Office_Maryann with shape (8592, 17)
+2026-03-16 18:17:43,708 - INFO - Processing 109/507: Office_Mason
+2026-03-16 18:17:43,955 - INFO - Saved Office_Mason with shape (8592, 17)
+2026-03-16 18:17:43,955 - INFO - Processing 110/507: Office_Mat
+2026-03-16 18:17:44,268 - INFO - Saved Office_Mat with shape (8592, 17)
+2026-03-16 18:17:44,269 - INFO - Processing 111/507: Office_Matthew
+2026-03-16 18:17:44,688 - INFO - Saved Office_Matthew with shape (8592, 17)
+2026-03-16 18:17:44,689 - INFO - Processing 112/507: Office_Max
+2026-03-16 18:17:44,929 - INFO - Saved Office_Max with shape (8592, 17)
+2026-03-16 18:17:44,929 - INFO - Processing 113/507: Office_Maximus
+2026-03-16 18:17:45,158 - INFO - Saved Office_Maximus with shape (8592, 17)
+2026-03-16 18:17:45,158 - INFO - Processing 114/507: Office_Maya
+2026-03-16 18:17:45,408 - INFO - Saved Office_Maya with shape (8592, 17)
+2026-03-16 18:17:45,408 - INFO - Processing 115/507: Office_Megan
+2026-03-16 18:17:45,665 - INFO - Saved Office_Megan with shape (8592, 17)
+2026-03-16 18:17:45,665 - INFO - Processing 116/507: Office_Melinda
+2026-03-16 18:17:46,035 - INFO - Saved Office_Melinda with shape (8592, 17)
+2026-03-16 18:17:46,036 - INFO - Processing 117/507: Office_Mercedes
+2026-03-16 18:17:46,318 - INFO - Saved Office_Mercedes with shape (8592, 17)
+2026-03-16 18:17:46,318 - INFO - Processing 118/507: Office_Michael
+2026-03-16 18:17:46,560 - INFO - Saved Office_Michael with shape (8592, 17)
+2026-03-16 18:17:46,560 - INFO - Processing 119/507: Office_Micheal
+2026-03-16 18:17:46,789 - INFO - Saved Office_Micheal with shape (8592, 17)
+2026-03-16 18:17:46,790 - INFO - Processing 120/507: Office_Mick
+2026-03-16 18:17:47,141 - INFO - Saved Office_Mick with shape (8592, 17)
+2026-03-16 18:17:47,142 - INFO - Processing 121/507: Office_Mikayla
+2026-03-16 18:17:47,408 - INFO - Saved Office_Mikayla with shape (8592, 17)
+2026-03-16 18:17:47,408 - INFO - Processing 122/507: Office_Milton
+2026-03-16 18:17:47,675 - INFO - Saved Office_Milton with shape (8592, 17)
+2026-03-16 18:17:47,675 - INFO - Processing 123/507: Office_Mohammed
+2026-03-16 18:17:47,917 - INFO - Saved Office_Mohammed with shape (8592, 17)
+2026-03-16 18:17:47,917 - INFO - Processing 124/507: Office_Moises
+2026-03-16 18:17:48,195 - INFO - Saved Office_Moises with shape (8592, 17)
+2026-03-16 18:17:48,196 - INFO - Processing 125/507: Office_Monty
+2026-03-16 18:17:48,420 - INFO - Saved Office_Monty with shape (8592, 17)
+2026-03-16 18:17:48,420 - INFO - Processing 126/507: Office_Morgan
+2026-03-16 18:17:48,642 - INFO - Saved Office_Morgan with shape (8592, 17)
+2026-03-16 18:17:48,642 - INFO - Processing 127/507: Office_Moses
+2026-03-16 18:17:48,864 - INFO - Saved Office_Moses with shape (8592, 17)
+2026-03-16 18:17:48,864 - INFO - Processing 128/507: Office_Muhammad
+2026-03-16 18:17:49,085 - INFO - Saved Office_Muhammad with shape (8592, 17)
+2026-03-16 18:17:49,085 - INFO - Processing 129/507: Office_Myron
+2026-03-16 18:17:49,299 - INFO - Saved Office_Myron with shape (8592, 17)
+2026-03-16 18:17:49,299 - INFO - Processing 130/507: Office_Natasha
+2026-03-16 18:17:49,525 - INFO - Saved Office_Natasha with shape (8592, 17)
+2026-03-16 18:17:49,526 - INFO - Processing 131/507: Office_Nelson
+2026-03-16 18:17:49,760 - INFO - Saved Office_Nelson with shape (8592, 17)
+2026-03-16 18:17:49,760 - INFO - Processing 132/507: Office_Noel
+2026-03-16 18:17:49,989 - INFO - Saved Office_Noel with shape (8592, 17)
+2026-03-16 18:17:49,989 - INFO - Processing 133/507: Office_Paige
+2026-03-16 18:17:50,233 - INFO - Saved Office_Paige with shape (8592, 17)
+2026-03-16 18:17:50,233 - INFO - Processing 134/507: Office_Pam
+2026-03-16 18:17:50,548 - INFO - Saved Office_Pam with shape (8592, 17)
+2026-03-16 18:17:50,548 - INFO - Processing 135/507: Office_Pamela
+2026-03-16 18:17:50,936 - INFO - Saved Office_Pamela with shape (8592, 17)
+2026-03-16 18:17:50,936 - INFO - Processing 136/507: Office_Pasquale
+2026-03-16 18:17:51,374 - INFO - Saved Office_Pasquale with shape (8592, 17)
+2026-03-16 18:17:51,374 - INFO - Processing 137/507: Office_Pat
+2026-03-16 18:17:51,708 - INFO - Saved Office_Pat with shape (8592, 17)
+2026-03-16 18:17:51,708 - INFO - Processing 138/507: Office_Patricia
+2026-03-16 18:17:52,026 - INFO - Saved Office_Patricia with shape (8592, 17)
+2026-03-16 18:17:52,026 - INFO - Processing 139/507: Office_Paula
+2026-03-16 18:17:52,350 - INFO - Saved Office_Paula with shape (8592, 17)
+2026-03-16 18:17:52,350 - INFO - Processing 140/507: Office_Paulette
+2026-03-16 18:17:52,730 - INFO - Saved Office_Paulette with shape (8592, 17)
+2026-03-16 18:17:52,730 - INFO - Processing 141/507: Office_Paulina
+2026-03-16 18:17:52,975 - INFO - Saved Office_Paulina with shape (8592, 17)
+2026-03-16 18:17:52,975 - INFO - Processing 142/507: Office_Pauline
+2026-03-16 18:17:53,250 - INFO - Saved Office_Pauline with shape (8592, 17)
+2026-03-16 18:17:53,250 - INFO - Processing 143/507: Office_Penny
+2026-03-16 18:17:53,671 - INFO - Saved Office_Penny with shape (8592, 17)
+2026-03-16 18:17:53,671 - INFO - Processing 144/507: Office_Perla
+2026-03-16 18:17:53,945 - INFO - Saved Office_Perla with shape (8592, 17)
+2026-03-16 18:17:53,945 - INFO - Processing 145/507: Office_Phebian
+2026-03-16 18:17:54,221 - INFO - Saved Office_Phebian with shape (8592, 17)
+2026-03-16 18:17:54,221 - INFO - Processing 146/507: Office_Precious
+2026-03-16 18:17:54,465 - INFO - Saved Office_Precious with shape (8592, 17)
+2026-03-16 18:17:54,465 - INFO - Processing 147/507: Office_Scottie
+2026-03-16 18:17:54,742 - INFO - Saved Office_Scottie with shape (8592, 17)
+2026-03-16 18:17:54,742 - INFO - Processing 148/507: Office_Shari
+2026-03-16 18:17:55,021 - INFO - Saved Office_Shari with shape (8592, 17)
+2026-03-16 18:17:55,021 - INFO - Processing 149/507: Office_Shawnette
+2026-03-16 18:17:55,348 - INFO - Saved Office_Shawnette with shape (8592, 17)
+2026-03-16 18:17:55,348 - INFO - Processing 150/507: Office_Shelly
+2026-03-16 18:17:55,568 - INFO - Saved Office_Shelly with shape (8592, 17)
+2026-03-16 18:17:55,568 - INFO - Processing 151/507: Office_Sinead
+2026-03-16 18:17:55,789 - INFO - Saved Office_Sinead with shape (8592, 17)
+2026-03-16 18:17:55,790 - INFO - Processing 152/507: Office_Skyler
+2026-03-16 18:17:56,003 - INFO - Saved Office_Skyler with shape (8592, 17)
+2026-03-16 18:17:56,003 - INFO - Processing 153/507: Office_Stella
+2026-03-16 18:17:56,236 - INFO - Saved Office_Stella with shape (8592, 17)
+2026-03-16 18:17:56,236 - INFO - Processing 154/507: Office_Terrell
+2026-03-16 18:17:56,464 - INFO - Saved Office_Terrell with shape (8592, 17)
+2026-03-16 18:17:56,464 - INFO - Processing 155/507: Office_Tod
+2026-03-16 18:17:56,814 - INFO - Saved Office_Tod with shape (8592, 17)
+2026-03-16 18:17:56,814 - INFO - Processing 156/507: Office_Travis
+2026-03-16 18:17:57,044 - INFO - Saved Office_Travis with shape (8592, 17)
+2026-03-16 18:17:57,044 - INFO - Processing 157/507: PrimClass_Angel
+2026-03-16 18:17:57,271 - INFO - Saved PrimClass_Angel with shape (8592, 17)
+2026-03-16 18:17:57,271 - INFO - Processing 158/507: PrimClass_Angela
+2026-03-16 18:17:57,497 - INFO - Saved PrimClass_Angela with shape (8592, 17)
+2026-03-16 18:17:57,497 - INFO - Processing 159/507: PrimClass_Ebony
+2026-03-16 18:17:57,731 - INFO - Saved PrimClass_Ebony with shape (8616, 17)
+2026-03-16 18:17:57,731 - INFO - Processing 160/507: PrimClass_Edmund
+2026-03-16 18:17:57,969 - INFO - Saved PrimClass_Edmund with shape (8616, 17)
+2026-03-16 18:17:57,969 - INFO - Processing 161/507: PrimClass_Edwin
+2026-03-16 18:17:58,226 - INFO - Saved PrimClass_Edwin with shape (8616, 17)
+2026-03-16 18:17:58,226 - INFO - Processing 162/507: PrimClass_Eleanor
+2026-03-16 18:17:58,461 - INFO - Saved PrimClass_Eleanor with shape (8616, 17)
+2026-03-16 18:17:58,461 - INFO - Processing 163/507: PrimClass_Eli
+2026-03-16 18:17:58,684 - INFO - Saved PrimClass_Eli with shape (8616, 17)
+2026-03-16 18:17:58,684 - INFO - Processing 164/507: PrimClass_Elijah
+2026-03-16 18:17:58,909 - INFO - Saved PrimClass_Elijah with shape (8616, 17)
+2026-03-16 18:17:58,909 - INFO - Processing 165/507: PrimClass_Elisabeth
+2026-03-16 18:17:59,143 - INFO - Saved PrimClass_Elisabeth with shape (8616, 17)
+2026-03-16 18:17:59,143 - INFO - Processing 166/507: PrimClass_Ellen
+2026-03-16 18:17:59,417 - INFO - Saved PrimClass_Ellen with shape (8616, 17)
+2026-03-16 18:17:59,417 - INFO - Processing 167/507: PrimClass_Elliott
+2026-03-16 18:17:59,655 - INFO - Saved PrimClass_Elliott with shape (8616, 17)
+2026-03-16 18:17:59,655 - INFO - Processing 168/507: PrimClass_Elmer
+2026-03-16 18:17:59,890 - INFO - Saved PrimClass_Elmer with shape (8616, 17)
+2026-03-16 18:17:59,890 - INFO - Processing 169/507: PrimClass_Emanuela
+2026-03-16 18:18:00,132 - INFO - Saved PrimClass_Emanuela with shape (8616, 17)
+2026-03-16 18:18:00,132 - INFO - Processing 170/507: PrimClass_Emilio
+2026-03-16 18:18:00,351 - INFO - Saved PrimClass_Emilio with shape (8616, 17)
+2026-03-16 18:18:00,351 - INFO - Processing 171/507: PrimClass_Emily
+2026-03-16 18:18:00,585 - INFO - Saved PrimClass_Emily with shape (8616, 17)
+2026-03-16 18:18:00,585 - INFO - Processing 172/507: PrimClass_Eoghan
+2026-03-16 18:18:00,952 - INFO - Saved PrimClass_Eoghan with shape (8616, 17)
+2026-03-16 18:18:00,953 - INFO - Processing 173/507: PrimClass_Ernest
+2026-03-16 18:18:01,189 - INFO - Saved PrimClass_Ernest with shape (8616, 17)
+2026-03-16 18:18:01,189 - INFO - Processing 174/507: PrimClass_Ernesto
+2026-03-16 18:18:01,423 - INFO - Saved PrimClass_Ernesto with shape (8616, 17)
+2026-03-16 18:18:01,423 - INFO - Processing 175/507: PrimClass_Ervin
+2026-03-16 18:18:01,650 - INFO - Saved PrimClass_Ervin with shape (8616, 17)
+2026-03-16 18:18:01,650 - INFO - Processing 176/507: PrimClass_Esmeralda
+2026-03-16 18:18:01,889 - INFO - Saved PrimClass_Esmeralda with shape (8616, 17)
+2026-03-16 18:18:01,889 - INFO - Processing 177/507: PrimClass_Ethan
+2026-03-16 18:18:02,152 - INFO - Saved PrimClass_Ethan with shape (8616, 17)
+2026-03-16 18:18:02,152 - INFO - Processing 178/507: PrimClass_Ethel
+2026-03-16 18:18:02,383 - INFO - Saved PrimClass_Ethel with shape (8616, 17)
+2026-03-16 18:18:02,383 - INFO - Processing 179/507: PrimClass_Eva
+2026-03-16 18:18:02,621 - INFO - Saved PrimClass_Eva with shape (8616, 17)
+2026-03-16 18:18:02,621 - INFO - Processing 180/507: PrimClass_Everett
+2026-03-16 18:18:02,861 - INFO - Saved PrimClass_Everett with shape (8616, 17)
+2026-03-16 18:18:02,861 - INFO - Processing 181/507: PrimClass_Evie
+2026-03-16 18:18:03,096 - INFO - Saved PrimClass_Evie with shape (8616, 17)
+2026-03-16 18:18:03,096 - INFO - Processing 182/507: PrimClass_Ezekiel
+2026-03-16 18:18:03,419 - INFO - Saved PrimClass_Ezekiel with shape (8616, 17)
+2026-03-16 18:18:03,419 - INFO - Processing 183/507: PrimClass_Ezra
+2026-03-16 18:18:03,658 - INFO - Saved PrimClass_Ezra with shape (8616, 17)
+2026-03-16 18:18:03,659 - INFO - Processing 184/507: PrimClass_Jacob
+2026-03-16 18:18:03,885 - INFO - Saved PrimClass_Jacob with shape (8592, 17)
+2026-03-16 18:18:03,885 - INFO - Processing 185/507: PrimClass_Jacqueline
+2026-03-16 18:18:04,126 - INFO - Saved PrimClass_Jacqueline with shape (8592, 17)
+2026-03-16 18:18:04,126 - INFO - Processing 186/507: PrimClass_Jacquelyn
+2026-03-16 18:18:04,359 - INFO - Saved PrimClass_Jacquelyn with shape (8592, 17)
+2026-03-16 18:18:04,359 - INFO - Processing 187/507: PrimClass_Jaden
+2026-03-16 18:18:04,639 - INFO - Saved PrimClass_Jaden with shape (8592, 17)
+2026-03-16 18:18:04,639 - INFO - Processing 188/507: PrimClass_Jaiden
+2026-03-16 18:18:04,988 - INFO - Saved PrimClass_Jaiden with shape (8592, 17)
+2026-03-16 18:18:04,988 - INFO - Processing 189/507: PrimClass_Jake
+2026-03-16 18:18:05,217 - INFO - Saved PrimClass_Jake with shape (8592, 17)
+2026-03-16 18:18:05,218 - INFO - Processing 190/507: PrimClass_Jamal
+2026-03-16 18:18:05,448 - INFO - Saved PrimClass_Jamal with shape (8592, 17)
+2026-03-16 18:18:05,448 - INFO - Processing 191/507: PrimClass_Jamie
+2026-03-16 18:18:05,704 - INFO - Saved PrimClass_Jamie with shape (8592, 17)
+2026-03-16 18:18:05,704 - INFO - Processing 192/507: PrimClass_Jane
+2026-03-16 18:18:05,944 - INFO - Saved PrimClass_Jane with shape (8592, 17)
+2026-03-16 18:18:05,944 - INFO - Processing 193/507: PrimClass_Janelle
+2026-03-16 18:18:06,206 - INFO - Saved PrimClass_Janelle with shape (8592, 17)
+2026-03-16 18:18:06,206 - INFO - Processing 194/507: PrimClass_Janet
+2026-03-16 18:18:06,435 - INFO - Saved PrimClass_Janet with shape (8592, 17)
+2026-03-16 18:18:06,435 - INFO - Processing 195/507: PrimClass_Janice
+2026-03-16 18:18:06,759 - INFO - Saved PrimClass_Janice with shape (8592, 17)
+2026-03-16 18:18:06,759 - INFO - Processing 196/507: PrimClass_Janie
+2026-03-16 18:18:07,034 - INFO - Saved PrimClass_Janie with shape (8592, 17)
+2026-03-16 18:18:07,034 - INFO - Processing 197/507: PrimClass_Janis
+2026-03-16 18:18:07,281 - INFO - Saved PrimClass_Janis with shape (8592, 17)
+2026-03-16 18:18:07,281 - INFO - Processing 198/507: PrimClass_Janiya
+2026-03-16 18:18:07,556 - INFO - Saved PrimClass_Janiya with shape (8592, 17)
+2026-03-16 18:18:07,556 - INFO - Processing 199/507: PrimClass_Jaqueline
+2026-03-16 18:18:07,826 - INFO - Saved PrimClass_Jaqueline with shape (8592, 17)
+2026-03-16 18:18:07,826 - INFO - Processing 200/507: PrimClass_Jarrett
+2026-03-16 18:18:08,098 - INFO - Saved PrimClass_Jarrett with shape (8592, 17)
+2026-03-16 18:18:08,099 - INFO - Processing 201/507: PrimClass_Jasmine
+2026-03-16 18:18:08,329 - INFO - Saved PrimClass_Jasmine with shape (8592, 17)
+2026-03-16 18:18:08,329 - INFO - Processing 202/507: PrimClass_Javier
+2026-03-16 18:18:08,567 - INFO - Saved PrimClass_Javier with shape (8592, 17)
+2026-03-16 18:18:08,567 - INFO - Processing 203/507: PrimClass_Jaxson
+2026-03-16 18:18:08,802 - INFO - Saved PrimClass_Jaxson with shape (8592, 17)
+2026-03-16 18:18:08,802 - INFO - Processing 204/507: PrimClass_Jayda
+2026-03-16 18:18:09,068 - INFO - Saved PrimClass_Jayda with shape (8592, 17)
+2026-03-16 18:18:09,068 - INFO - Processing 205/507: PrimClass_Jayla
+2026-03-16 18:18:09,288 - INFO - Saved PrimClass_Jayla with shape (8592, 17)
+2026-03-16 18:18:09,289 - INFO - Processing 206/507: PrimClass_Jaylin
+2026-03-16 18:18:09,523 - INFO - Saved PrimClass_Jaylin with shape (8592, 17)
+2026-03-16 18:18:09,523 - INFO - Processing 207/507: PrimClass_Jaylinn
+2026-03-16 18:18:09,744 - INFO - Saved PrimClass_Jaylinn with shape (8592, 17)
+2026-03-16 18:18:09,744 - INFO - Processing 208/507: PrimClass_Jayson
+2026-03-16 18:18:09,960 - INFO - Saved PrimClass_Jayson with shape (8592, 17)
+2026-03-16 18:18:09,960 - INFO - Processing 209/507: PrimClass_Jazmin
+2026-03-16 18:18:10,206 - INFO - Saved PrimClass_Jazmin with shape (8592, 17)
+2026-03-16 18:18:10,206 - INFO - Processing 210/507: PrimClass_Jazmine
+2026-03-16 18:18:10,429 - INFO - Saved PrimClass_Jazmine with shape (8592, 17)
+2026-03-16 18:18:10,429 - INFO - Processing 211/507: PrimClass_Jean
+2026-03-16 18:18:10,670 - INFO - Saved PrimClass_Jean with shape (8592, 17)
+2026-03-16 18:18:10,670 - INFO - Processing 212/507: PrimClass_Jeanette
+2026-03-16 18:18:10,921 - INFO - Saved PrimClass_Jeanette with shape (8592, 17)
+2026-03-16 18:18:10,921 - INFO - Processing 213/507: PrimClass_Jeanine
+2026-03-16 18:18:11,191 - INFO - Saved PrimClass_Jeanine with shape (8592, 17)
+2026-03-16 18:18:11,191 - INFO - Processing 214/507: PrimClass_Jeannine
+2026-03-16 18:18:11,471 - INFO - Saved PrimClass_Jeannine with shape (8592, 17)
+2026-03-16 18:18:11,472 - INFO - Processing 215/507: PrimClass_Jediah
+2026-03-16 18:18:11,894 - INFO - Saved PrimClass_Jediah with shape (8592, 17)
+2026-03-16 18:18:11,894 - INFO - Processing 216/507: PrimClass_Jeff
+2026-03-16 18:18:12,142 - INFO - Saved PrimClass_Jeff with shape (8592, 17)
+2026-03-16 18:18:12,142 - INFO - Processing 217/507: PrimClass_Jeffery
+2026-03-16 18:18:12,406 - INFO - Saved PrimClass_Jeffery with shape (8592, 17)
+2026-03-16 18:18:12,406 - INFO - Processing 218/507: PrimClass_Jeffrey
+2026-03-16 18:18:12,698 - INFO - Saved PrimClass_Jeffrey with shape (8592, 17)
+2026-03-16 18:18:12,698 - INFO - Processing 219/507: PrimClass_Jenna
+2026-03-16 18:18:12,992 - INFO - Saved PrimClass_Jenna with shape (8592, 17)
+2026-03-16 18:18:12,992 - INFO - Processing 220/507: PrimClass_Jennie
+2026-03-16 18:18:13,251 - INFO - Saved PrimClass_Jennie with shape (8592, 17)
+2026-03-16 18:18:13,251 - INFO - Processing 221/507: PrimClass_Jennifer
+2026-03-16 18:18:13,489 - INFO - Saved PrimClass_Jennifer with shape (8592, 17)
+2026-03-16 18:18:13,489 - INFO - Processing 222/507: PrimClass_Jensen
+2026-03-16 18:18:13,715 - INFO - Saved PrimClass_Jensen with shape (8592, 17)
+2026-03-16 18:18:13,715 - INFO - Processing 223/507: PrimClass_Jeremy
+2026-03-16 18:18:13,946 - INFO - Saved PrimClass_Jeremy with shape (8592, 17)
+2026-03-16 18:18:13,946 - INFO - Processing 224/507: PrimClass_Jermaine
+2026-03-16 18:18:14,178 - INFO - Saved PrimClass_Jermaine with shape (8592, 17)
+2026-03-16 18:18:14,178 - INFO - Processing 225/507: PrimClass_Jerome
+2026-03-16 18:18:14,536 - INFO - Saved PrimClass_Jerome with shape (8592, 17)
+2026-03-16 18:18:14,536 - INFO - Processing 226/507: PrimClass_Jesse
+2026-03-16 18:18:14,831 - INFO - Saved PrimClass_Jesse with shape (8592, 17)
+2026-03-16 18:18:14,831 - INFO - Processing 227/507: PrimClass_Jessie
+2026-03-16 18:18:15,130 - INFO - Saved PrimClass_Jessie with shape (8592, 17)
+2026-03-16 18:18:15,130 - INFO - Processing 228/507: PrimClass_Jill
+2026-03-16 18:18:15,390 - INFO - Saved PrimClass_Jill with shape (8592, 17)
+2026-03-16 18:18:15,390 - INFO - Processing 229/507: PrimClass_Jim
+2026-03-16 18:18:15,609 - INFO - Saved PrimClass_Jim with shape (8592, 17)
+2026-03-16 18:18:15,609 - INFO - Processing 230/507: PrimClass_Jimmie
+2026-03-16 18:18:15,863 - INFO - Saved PrimClass_Jimmie with shape (8592, 17)
+2026-03-16 18:18:15,863 - INFO - Processing 231/507: PrimClass_Joanna
+2026-03-16 18:18:16,096 - INFO - Saved PrimClass_Joanna with shape (8592, 17)
+2026-03-16 18:18:16,096 - INFO - Processing 232/507: PrimClass_Jocelyn
+2026-03-16 18:18:16,324 - INFO - Saved PrimClass_Jocelyn with shape (8592, 17)
+2026-03-16 18:18:16,324 - INFO - Processing 233/507: PrimClass_Jodie
+2026-03-16 18:18:16,551 - INFO - Saved PrimClass_Jodie with shape (8592, 17)
+2026-03-16 18:18:16,551 - INFO - Processing 234/507: PrimClass_Jody
+2026-03-16 18:18:16,787 - INFO - Saved PrimClass_Jody with shape (8592, 17)
+2026-03-16 18:18:16,788 - INFO - Processing 235/507: PrimClass_Joel
+2026-03-16 18:18:17,015 - INFO - Saved PrimClass_Joel with shape (8592, 17)
+2026-03-16 18:18:17,015 - INFO - Processing 236/507: PrimClass_Joey
+2026-03-16 18:18:17,340 - INFO - Saved PrimClass_Joey with shape (8592, 17)
+2026-03-16 18:18:17,340 - INFO - Processing 237/507: PrimClass_Johanna
+2026-03-16 18:18:17,577 - INFO - Saved PrimClass_Johanna with shape (8592, 17)
+2026-03-16 18:18:17,577 - INFO - Processing 238/507: PrimClass_Johnathan
+2026-03-16 18:18:17,798 - INFO - Saved PrimClass_Johnathan with shape (8592, 17)
+2026-03-16 18:18:17,798 - INFO - Processing 239/507: PrimClass_Johnathon
+2026-03-16 18:18:18,052 - INFO - Saved PrimClass_Johnathon with shape (8592, 17)
+2026-03-16 18:18:18,052 - INFO - Processing 240/507: PrimClass_Johnnie
+2026-03-16 18:18:18,288 - INFO - Saved PrimClass_Johnnie with shape (8592, 17)
+2026-03-16 18:18:18,288 - INFO - Processing 241/507: PrimClass_Jolie
+2026-03-16 18:18:18,639 - INFO - Saved PrimClass_Jolie with shape (8592, 17)
+2026-03-16 18:18:18,639 - INFO - Processing 242/507: PrimClass_Jon
+2026-03-16 18:18:18,871 - INFO - Saved PrimClass_Jon with shape (8592, 17)
+2026-03-16 18:18:18,872 - INFO - Processing 243/507: PrimClass_Jonathon
+2026-03-16 18:18:19,101 - INFO - Saved PrimClass_Jonathon with shape (8592, 17)
+2026-03-16 18:18:19,101 - INFO - Processing 244/507: PrimClass_Jose
+2026-03-16 18:18:19,323 - INFO - Saved PrimClass_Jose with shape (8592, 17)
+2026-03-16 18:18:19,323 - INFO - Processing 245/507: PrimClass_Joselyn
+2026-03-16 18:18:19,554 - INFO - Saved PrimClass_Joselyn with shape (8592, 17)
+2026-03-16 18:18:19,555 - INFO - Processing 246/507: PrimClass_Josephine
+2026-03-16 18:18:19,836 - INFO - Saved PrimClass_Josephine with shape (8592, 17)
+2026-03-16 18:18:19,836 - INFO - Processing 247/507: PrimClass_Josue
+2026-03-16 18:18:20,122 - INFO - Saved PrimClass_Josue with shape (8592, 17)
+2026-03-16 18:18:20,122 - INFO - Processing 248/507: PrimClass_Juanita
+2026-03-16 18:18:20,396 - INFO - Saved PrimClass_Juanita with shape (8592, 17)
+2026-03-16 18:18:20,396 - INFO - Processing 249/507: PrimClass_Judith
+2026-03-16 18:18:20,665 - INFO - Saved PrimClass_Judith with shape (8592, 17)
+2026-03-16 18:18:20,665 - INFO - Processing 250/507: PrimClass_Judy
+2026-03-16 18:18:20,891 - INFO - Saved PrimClass_Judy with shape (8592, 17)
+2026-03-16 18:18:20,892 - INFO - Processing 251/507: PrimClass_Julian
+2026-03-16 18:18:21,120 - INFO - Saved PrimClass_Julian with shape (8592, 17)
+2026-03-16 18:18:21,120 - INFO - Processing 252/507: PrimClass_Julianna
+2026-03-16 18:18:21,344 - INFO - Saved PrimClass_Julianna with shape (8592, 17)
+2026-03-16 18:18:21,344 - INFO - Processing 253/507: PrimClass_Julianne
+2026-03-16 18:18:21,575 - INFO - Saved PrimClass_Julianne with shape (8592, 17)
+2026-03-16 18:18:21,575 - INFO - Processing 254/507: PrimClass_Julio
+2026-03-16 18:18:21,816 - INFO - Saved PrimClass_Julio with shape (8592, 17)
+2026-03-16 18:18:21,816 - INFO - Processing 255/507: PrimClass_Julius
+2026-03-16 18:18:22,089 - INFO - Saved PrimClass_Julius with shape (8592, 17)
+2026-03-16 18:18:22,089 - INFO - Processing 256/507: PrimClass_Justice
+2026-03-16 18:18:22,304 - INFO - Saved PrimClass_Justice with shape (8592, 17)
+2026-03-16 18:18:22,304 - INFO - Processing 257/507: PrimClass_Justin
+2026-03-16 18:18:22,550 - INFO - Saved PrimClass_Justin with shape (8592, 17)
+2026-03-16 18:18:22,550 - INFO - Processing 258/507: PrimClass_Ulysses
+2026-03-16 18:18:22,771 - INFO - Saved PrimClass_Ulysses with shape (8592, 17)
+2026-03-16 18:18:22,771 - INFO - Processing 259/507: PrimClass_Uma
+2026-03-16 18:18:23,010 - INFO - Saved PrimClass_Uma with shape (8592, 17)
+2026-03-16 18:18:23,011 - INFO - Processing 260/507: PrimClass_Umar
+2026-03-16 18:18:23,223 - INFO - Saved PrimClass_Umar with shape (8592, 17)
+2026-03-16 18:18:23,223 - INFO - Processing 261/507: PrimClass_Uriah
+2026-03-16 18:18:23,458 - INFO - Saved PrimClass_Uriah with shape (8592, 17)
+2026-03-16 18:18:23,458 - INFO - Processing 262/507: UnivClass_Abby
+2026-03-16 18:18:23,681 - INFO - Saved UnivClass_Abby with shape (8592, 17)
+2026-03-16 18:18:23,681 - INFO - Processing 263/507: UnivClass_Abraham
+2026-03-16 18:18:23,950 - INFO - Saved UnivClass_Abraham with shape (8592, 17)
+2026-03-16 18:18:23,951 - INFO - Processing 264/507: UnivClass_Adrienne
+2026-03-16 18:18:24,202 - INFO - Saved UnivClass_Adrienne with shape (8592, 17)
+2026-03-16 18:18:24,202 - INFO - Processing 265/507: UnivClass_Aidan
+2026-03-16 18:18:24,423 - INFO - Saved UnivClass_Aidan with shape (8592, 17)
+2026-03-16 18:18:24,423 - INFO - Processing 266/507: UnivClass_Alec
+2026-03-16 18:18:24,639 - INFO - Saved UnivClass_Alec with shape (8592, 17)
+2026-03-16 18:18:24,639 - INFO - Processing 267/507: UnivClass_Alejandra
+2026-03-16 18:18:24,856 - INFO - Saved UnivClass_Alejandra with shape (8592, 17)
+2026-03-16 18:18:24,856 - INFO - Processing 268/507: UnivClass_Alexander
+2026-03-16 18:18:25,095 - INFO - Saved UnivClass_Alexander with shape (8592, 17)
+2026-03-16 18:18:25,095 - INFO - Processing 269/507: UnivClass_Alexandra
+2026-03-16 18:18:25,408 - INFO - Saved UnivClass_Alexandra with shape (8592, 17)
+2026-03-16 18:18:25,408 - INFO - Processing 270/507: UnivClass_Alexandria
+2026-03-16 18:18:25,638 - INFO - Saved UnivClass_Alexandria with shape (8592, 17)
+2026-03-16 18:18:25,639 - INFO - Processing 271/507: UnivClass_Alexus
+2026-03-16 18:18:25,862 - INFO - Saved UnivClass_Alexus with shape (8592, 17)
+2026-03-16 18:18:25,862 - INFO - Processing 272/507: UnivClass_Alfredo
+2026-03-16 18:18:26,138 - INFO - Saved UnivClass_Alfredo with shape (8592, 17)
+2026-03-16 18:18:26,138 - INFO - Processing 273/507: UnivClass_Alicia
+2026-03-16 18:18:26,362 - INFO - Saved UnivClass_Alicia with shape (8592, 17)
+2026-03-16 18:18:26,362 - INFO - Processing 274/507: UnivClass_Allen
+2026-03-16 18:18:26,583 - INFO - Saved UnivClass_Allen with shape (8592, 17)
+2026-03-16 18:18:26,583 - INFO - Processing 275/507: UnivClass_Alvin
+2026-03-16 18:18:26,812 - INFO - Saved UnivClass_Alvin with shape (8592, 17)
+2026-03-16 18:18:26,812 - INFO - Processing 276/507: UnivClass_Amari
+2026-03-16 18:18:27,039 - INFO - Saved UnivClass_Amari with shape (8592, 17)
+2026-03-16 18:18:27,039 - INFO - Processing 277/507: UnivClass_Amya
+2026-03-16 18:18:27,270 - INFO - Saved UnivClass_Amya with shape (8592, 17)
+2026-03-16 18:18:27,270 - INFO - Processing 278/507: UnivClass_Anamaria
+2026-03-16 18:18:27,490 - INFO - Saved UnivClass_Anamaria with shape (8592, 17)
+2026-03-16 18:18:27,491 - INFO - Processing 279/507: UnivClass_Andy
+2026-03-16 18:18:27,703 - INFO - Saved UnivClass_Andy with shape (8592, 17)
+2026-03-16 18:18:27,703 - INFO - Processing 280/507: UnivClass_Anika
+2026-03-16 18:18:27,941 - INFO - Saved UnivClass_Anika with shape (8592, 17)
+2026-03-16 18:18:27,941 - INFO - Processing 281/507: UnivClass_Annabella
+2026-03-16 18:18:28,209 - INFO - Saved UnivClass_Annabella with shape (8592, 17)
+2026-03-16 18:18:28,209 - INFO - Processing 282/507: UnivClass_Anne
+2026-03-16 18:18:28,426 - INFO - Saved UnivClass_Anne with shape (8592, 17)
+2026-03-16 18:18:28,426 - INFO - Processing 283/507: UnivClass_Annmarie
+2026-03-16 18:18:28,668 - INFO - Saved UnivClass_Annmarie with shape (8592, 17)
+2026-03-16 18:18:28,668 - INFO - Processing 284/507: UnivClass_Antoinette
+2026-03-16 18:18:28,896 - INFO - Saved UnivClass_Antoinette with shape (8592, 17)
+2026-03-16 18:18:28,896 - INFO - Processing 285/507: UnivClass_Anya
+2026-03-16 18:18:29,151 - INFO - Saved UnivClass_Anya with shape (8592, 17)
+2026-03-16 18:18:29,151 - INFO - Processing 286/507: UnivClass_Aoibhe
+2026-03-16 18:18:29,541 - INFO - Saved UnivClass_Aoibhe with shape (8592, 17)
+2026-03-16 18:18:29,541 - INFO - Processing 287/507: UnivClass_Archie
+2026-03-16 18:18:29,754 - INFO - Saved UnivClass_Archie with shape (8592, 17)
+2026-03-16 18:18:29,754 - INFO - Processing 288/507: UnivClass_Ariana
+2026-03-16 18:18:29,971 - INFO - Saved UnivClass_Ariana with shape (8592, 17)
+2026-03-16 18:18:29,971 - INFO - Processing 289/507: UnivClass_Armando
+2026-03-16 18:18:30,190 - INFO - Saved UnivClass_Armando with shape (8592, 17)
+2026-03-16 18:18:30,190 - INFO - Processing 290/507: UnivClass_Axel
+2026-03-16 18:18:30,422 - INFO - Saved UnivClass_Axel with shape (8592, 17)
+2026-03-16 18:18:30,422 - INFO - Processing 291/507: UnivClass_Ayanna
+2026-03-16 18:18:30,703 - INFO - Saved UnivClass_Ayanna with shape (8592, 17)
+2026-03-16 18:18:30,704 - INFO - Processing 292/507: UnivClass_Beatrice
+2026-03-16 18:18:30,975 - INFO - Saved UnivClass_Beatrice with shape (8616, 17)
+2026-03-16 18:18:30,975 - INFO - Processing 293/507: UnivClass_Bob
+2026-03-16 18:18:31,294 - INFO - Saved UnivClass_Bob with shape (8616, 17)
+2026-03-16 18:18:31,295 - INFO - Processing 294/507: UnivClass_Boyd
+2026-03-16 18:18:31,629 - INFO - Saved UnivClass_Boyd with shape (8616, 17)
+2026-03-16 18:18:31,629 - INFO - Processing 295/507: UnivClass_Brett
+2026-03-16 18:18:31,856 - INFO - Saved UnivClass_Brett with shape (8616, 17)
+2026-03-16 18:18:31,856 - INFO - Processing 296/507: UnivClass_Caitlyn
+2026-03-16 18:18:32,126 - INFO - Saved UnivClass_Caitlyn with shape (8592, 17)
+2026-03-16 18:18:32,126 - INFO - Processing 297/507: UnivClass_Calvin
+2026-03-16 18:18:32,390 - INFO - Saved UnivClass_Calvin with shape (8592, 17)
+2026-03-16 18:18:32,390 - INFO - Processing 298/507: UnivClass_Camden
+2026-03-16 18:18:32,638 - INFO - Saved UnivClass_Camden with shape (8592, 17)
+2026-03-16 18:18:32,639 - INFO - Processing 299/507: UnivClass_Candy
+2026-03-16 18:18:32,865 - INFO - Saved UnivClass_Candy with shape (8592, 17)
+2026-03-16 18:18:32,866 - INFO - Processing 300/507: UnivClass_Caoimhe
+2026-03-16 18:18:33,103 - INFO - Saved UnivClass_Caoimhe with shape (8592, 17)
+2026-03-16 18:18:33,103 - INFO - Processing 301/507: UnivClass_Carl
+2026-03-16 18:18:33,340 - INFO - Saved UnivClass_Carl with shape (8592, 17)
+2026-03-16 18:18:33,340 - INFO - Processing 302/507: UnivClass_Carolyn
+2026-03-16 18:18:33,672 - INFO - Saved UnivClass_Carolyn with shape (8592, 17)
+2026-03-16 18:18:33,672 - INFO - Processing 303/507: UnivClass_Cathleen
+2026-03-16 18:18:33,905 - INFO - Saved UnivClass_Cathleen with shape (8592, 17)
+2026-03-16 18:18:33,905 - INFO - Processing 304/507: UnivClass_Celia
+2026-03-16 18:18:34,130 - INFO - Saved UnivClass_Celia with shape (8592, 17)
+2026-03-16 18:18:34,130 - INFO - Processing 305/507: UnivClass_Chandler
+2026-03-16 18:18:34,359 - INFO - Saved UnivClass_Chandler with shape (8592, 17)
+2026-03-16 18:18:34,359 - INFO - Processing 306/507: UnivClass_Charlie
+2026-03-16 18:18:34,599 - INFO - Saved UnivClass_Charlie with shape (8592, 17)
+2026-03-16 18:18:34,599 - INFO - Processing 307/507: UnivClass_Christian
+2026-03-16 18:18:35,052 - INFO - Saved UnivClass_Christian with shape (8592, 17)
+2026-03-16 18:18:35,052 - INFO - Processing 308/507: UnivClass_Ciara
+2026-03-16 18:18:35,339 - INFO - Saved UnivClass_Ciara with shape (8592, 17)
+2026-03-16 18:18:35,340 - INFO - Processing 309/507: UnivClass_Clay
+2026-03-16 18:18:35,630 - INFO - Saved UnivClass_Clay with shape (8592, 17)
+2026-03-16 18:18:35,630 - INFO - Processing 310/507: UnivClass_Clifford
+2026-03-16 18:18:35,869 - INFO - Saved UnivClass_Clifford with shape (8592, 17)
+2026-03-16 18:18:35,870 - INFO - Processing 311/507: UnivClass_Colette
+2026-03-16 18:18:36,170 - INFO - Saved UnivClass_Colette with shape (8592, 17)
+2026-03-16 18:18:36,170 - INFO - Processing 312/507: UnivClass_Conner
+2026-03-16 18:18:36,492 - INFO - Saved UnivClass_Conner with shape (8592, 17)
+2026-03-16 18:18:36,492 - INFO - Processing 313/507: UnivClass_Conor
+2026-03-16 18:18:36,740 - INFO - Saved UnivClass_Conor with shape (8592, 17)
+2026-03-16 18:18:36,740 - INFO - Processing 314/507: UnivClass_Craig
+2026-03-16 18:18:37,004 - INFO - Saved UnivClass_Craig with shape (8592, 17)
+2026-03-16 18:18:37,004 - INFO - Processing 315/507: UnivClass_Jadon
+2026-03-16 18:18:37,271 - INFO - Saved UnivClass_Jadon with shape (8592, 17)
+2026-03-16 18:18:37,271 - INFO - Processing 316/507: UnivClass_Maddison
+2026-03-16 18:18:37,522 - INFO - Saved UnivClass_Maddison with shape (8592, 17)
+2026-03-16 18:18:37,522 - INFO - Processing 317/507: UnivClass_Nash
+2026-03-16 18:18:37,748 - INFO - Saved UnivClass_Nash with shape (8592, 17)
+2026-03-16 18:18:37,748 - INFO - Processing 318/507: UnivClass_Nathaniel
+2026-03-16 18:18:37,980 - INFO - Saved UnivClass_Nathaniel with shape (8592, 17)
+2026-03-16 18:18:37,980 - INFO - Processing 319/507: UnivClass_Nayeli
+2026-03-16 18:18:38,223 - INFO - Saved UnivClass_Nayeli with shape (8592, 17)
+2026-03-16 18:18:38,223 - INFO - Processing 320/507: UnivClass_Nelly
+2026-03-16 18:18:38,443 - INFO - Saved UnivClass_Nelly with shape (8592, 17)
+2026-03-16 18:18:38,443 - INFO - Processing 321/507: UnivClass_Nicholas
+2026-03-16 18:18:38,689 - INFO - Saved UnivClass_Nicholas with shape (8592, 17)
+2026-03-16 18:18:38,689 - INFO - Processing 322/507: UnivClass_Nickolas
+2026-03-16 18:18:39,119 - INFO - Saved UnivClass_Nickolas with shape (8592, 17)
+2026-03-16 18:18:39,119 - INFO - Processing 323/507: UnivClass_Nishka
+2026-03-16 18:18:39,350 - INFO - Saved UnivClass_Nishka with shape (8592, 17)
+2026-03-16 18:18:39,350 - INFO - Processing 324/507: UnivClass_Noreen
+2026-03-16 18:18:39,587 - INFO - Saved UnivClass_Noreen with shape (8592, 17)
+2026-03-16 18:18:39,587 - INFO - Processing 325/507: UnivClass_Pandora
+2026-03-16 18:18:39,814 - INFO - Saved UnivClass_Pandora with shape (8592, 17)
+2026-03-16 18:18:39,815 - INFO - Processing 326/507: UnivClass_Pete
+2026-03-16 18:18:40,075 - INFO - Saved UnivClass_Pete with shape (8592, 17)
+2026-03-16 18:18:40,075 - INFO - Processing 327/507: UnivClass_Peter
+2026-03-16 18:18:40,439 - INFO - Saved UnivClass_Peter with shape (8592, 17)
+2026-03-16 18:18:40,439 - INFO - Processing 328/507: UnivClass_Philip
+2026-03-16 18:18:40,684 - INFO - Saved UnivClass_Philip with shape (8592, 17)
+2026-03-16 18:18:40,684 - INFO - Processing 329/507: UnivClass_Phyllis
+2026-03-16 18:18:40,908 - INFO - Saved UnivClass_Phyllis with shape (8592, 17)
+2026-03-16 18:18:40,909 - INFO - Processing 330/507: UnivClass_Sam
+2026-03-16 18:18:41,125 - INFO - Saved UnivClass_Sam with shape (8592, 17)
+2026-03-16 18:18:41,126 - INFO - Processing 331/507: UnivClass_Seb
+2026-03-16 18:18:41,337 - INFO - Saved UnivClass_Seb with shape (8592, 17)
+2026-03-16 18:18:41,337 - INFO - Processing 332/507: UnivClass_Serenity
+2026-03-16 18:18:41,583 - INFO - Saved UnivClass_Serenity with shape (8592, 17)
+2026-03-16 18:18:41,583 - INFO - Processing 333/507: UnivClass_Shawna
+2026-03-16 18:18:41,792 - INFO - Saved UnivClass_Shawna with shape (8592, 17)
+2026-03-16 18:18:41,792 - INFO - Processing 334/507: UnivClass_Sheila
+2026-03-16 18:18:42,001 - INFO - Saved UnivClass_Sheila with shape (8592, 17)
+2026-03-16 18:18:42,001 - INFO - Processing 335/507: UnivClass_Stephanie
+2026-03-16 18:18:42,220 - INFO - Saved UnivClass_Stephanie with shape (8592, 17)
+2026-03-16 18:18:42,221 - INFO - Processing 336/507: UnivClass_Stephen
+2026-03-16 18:18:42,450 - INFO - Saved UnivClass_Stephen with shape (8592, 17)
+2026-03-16 18:18:42,450 - INFO - Processing 337/507: UnivClass_Stuart
+2026-03-16 18:18:42,657 - INFO - Saved UnivClass_Stuart with shape (8592, 17)
+2026-03-16 18:18:42,657 - INFO - Processing 338/507: UnivClass_Sylvia
+2026-03-16 18:18:42,922 - INFO - Saved UnivClass_Sylvia with shape (8592, 17)
+2026-03-16 18:18:42,922 - INFO - Processing 339/507: UnivClass_Tammy
+2026-03-16 18:18:43,139 - INFO - Saved UnivClass_Tammy with shape (8592, 17)
+2026-03-16 18:18:43,139 - INFO - Processing 340/507: UnivClass_Tamra
+2026-03-16 18:18:43,392 - INFO - Saved UnivClass_Tamra with shape (8592, 17)
+2026-03-16 18:18:43,392 - INFO - Processing 341/507: UnivClass_Teri
+2026-03-16 18:18:43,615 - INFO - Saved UnivClass_Teri with shape (8592, 17)
+2026-03-16 18:18:43,615 - INFO - Processing 342/507: UnivClass_Therese
+2026-03-16 18:18:43,842 - INFO - Saved UnivClass_Therese with shape (8592, 17)
+2026-03-16 18:18:43,842 - INFO - Processing 343/507: UnivDorm_Adan
+2026-03-16 18:18:44,078 - INFO - Saved UnivDorm_Adan with shape (8592, 17)
+2026-03-16 18:18:44,078 - INFO - Processing 344/507: UnivDorm_Adriana
+2026-03-16 18:18:44,334 - INFO - Saved UnivDorm_Adriana with shape (8592, 17)
+2026-03-16 18:18:44,334 - INFO - Processing 345/507: UnivDorm_Ahmad
+2026-03-16 18:18:44,658 - INFO - Saved UnivDorm_Ahmad with shape (8592, 17)
+2026-03-16 18:18:44,658 - INFO - Processing 346/507: UnivDorm_Alex
+2026-03-16 18:18:44,878 - INFO - Saved UnivDorm_Alex with shape (8592, 17)
+2026-03-16 18:18:44,878 - INFO - Processing 347/507: UnivDorm_Alka
+2026-03-16 18:18:45,111 - INFO - Saved UnivDorm_Alka with shape (8592, 17)
+2026-03-16 18:18:45,111 - INFO - Processing 348/507: UnivDorm_Alonzo
+2026-03-16 18:18:45,357 - INFO - Saved UnivDorm_Alonzo with shape (8592, 17)
+2026-03-16 18:18:45,357 - INFO - Processing 349/507: UnivDorm_Alphonso
+2026-03-16 18:18:45,610 - INFO - Saved UnivDorm_Alphonso with shape (8592, 17)
+2026-03-16 18:18:45,610 - INFO - Processing 350/507: UnivDorm_Alyshialynn
+2026-03-16 18:18:45,882 - INFO - Saved UnivDorm_Alyshialynn with shape (8592, 17)
+2026-03-16 18:18:45,882 - INFO - Processing 351/507: UnivDorm_Alyssa
+2026-03-16 18:18:46,112 - INFO - Saved UnivDorm_Alyssa with shape (8592, 17)
+2026-03-16 18:18:46,112 - INFO - Processing 352/507: UnivDorm_Antonio
+2026-03-16 18:18:46,329 - INFO - Saved UnivDorm_Antonio with shape (8592, 17)
+2026-03-16 18:18:46,329 - INFO - Processing 353/507: UnivDorm_April
+2026-03-16 18:18:46,557 - INFO - Saved UnivDorm_April with shape (8592, 17)
+2026-03-16 18:18:46,558 - INFO - Processing 354/507: UnivDorm_Ashleigh
+2026-03-16 18:18:46,768 - INFO - Saved UnivDorm_Ashleigh with shape (8592, 17)
+2026-03-16 18:18:46,768 - INFO - Processing 355/507: UnivDorm_Avery
+2026-03-16 18:18:47,003 - INFO - Saved UnivDorm_Avery with shape (8592, 17)
+2026-03-16 18:18:47,003 - INFO - Processing 356/507: UnivDorm_Camila
+2026-03-16 18:18:47,303 - INFO - Saved UnivDorm_Camila with shape (8592, 17)
+2026-03-16 18:18:47,303 - INFO - Processing 357/507: UnivDorm_Candace
+2026-03-16 18:18:47,536 - INFO - Saved UnivDorm_Candace with shape (8592, 17)
+2026-03-16 18:18:47,536 - INFO - Processing 358/507: UnivDorm_Cara
+2026-03-16 18:18:47,762 - INFO - Saved UnivDorm_Cara with shape (8592, 17)
+2026-03-16 18:18:47,762 - INFO - Processing 359/507: UnivDorm_Carey
+2026-03-16 18:18:47,996 - INFO - Saved UnivDorm_Carey with shape (8592, 17)
+2026-03-16 18:18:47,996 - INFO - Processing 360/507: UnivDorm_Carla
+2026-03-16 18:18:48,275 - INFO - Saved UnivDorm_Carla with shape (8592, 17)
+2026-03-16 18:18:48,275 - INFO - Processing 361/507: UnivDorm_Carter
+2026-03-16 18:18:48,599 - INFO - Saved UnivDorm_Carter with shape (8592, 17)
+2026-03-16 18:18:48,599 - INFO - Processing 362/507: UnivDorm_Casey
+2026-03-16 18:18:48,857 - INFO - Saved UnivDorm_Casey with shape (8592, 17)
+2026-03-16 18:18:48,858 - INFO - Processing 363/507: UnivDorm_Cathal
+2026-03-16 18:18:49,088 - INFO - Saved UnivDorm_Cathal with shape (8592, 17)
+2026-03-16 18:18:49,088 - INFO - Processing 364/507: UnivDorm_Cathalina
+2026-03-16 18:18:49,471 - INFO - Saved UnivDorm_Cathalina with shape (8592, 17)
+2026-03-16 18:18:49,471 - INFO - Processing 365/507: UnivDorm_Cecilia
+2026-03-16 18:18:49,742 - INFO - Saved UnivDorm_Cecilia with shape (8592, 17)
+2026-03-16 18:18:49,742 - INFO - Processing 366/507: UnivDorm_Celeste
+2026-03-16 18:18:49,996 - INFO - Saved UnivDorm_Celeste with shape (8592, 17)
+2026-03-16 18:18:49,996 - INFO - Processing 367/507: UnivDorm_Chelsey
+2026-03-16 18:18:50,229 - INFO - Saved UnivDorm_Chelsey with shape (8592, 17)
+2026-03-16 18:18:50,229 - INFO - Processing 368/507: UnivDorm_Cheri
+2026-03-16 18:18:50,457 - INFO - Saved UnivDorm_Cheri with shape (8592, 17)
+2026-03-16 18:18:50,457 - INFO - Processing 369/507: UnivDorm_Chester
+2026-03-16 18:18:50,700 - INFO - Saved UnivDorm_Chester with shape (8592, 17)
+2026-03-16 18:18:50,700 - INFO - Processing 370/507: UnivDorm_Cheyenne
+2026-03-16 18:18:50,924 - INFO - Saved UnivDorm_Cheyenne with shape (8592, 17)
+2026-03-16 18:18:50,924 - INFO - Processing 371/507: UnivDorm_Christi
+2026-03-16 18:18:51,165 - INFO - Saved UnivDorm_Christi with shape (8592, 17)
+2026-03-16 18:18:51,166 - INFO - Processing 372/507: UnivDorm_Christopher
+2026-03-16 18:18:51,387 - INFO - Saved UnivDorm_Christopher with shape (8592, 17)
+2026-03-16 18:18:51,387 - INFO - Processing 373/507: UnivDorm_Cian
+2026-03-16 18:18:51,635 - INFO - Saved UnivDorm_Cian with shape (8592, 17)
+2026-03-16 18:18:51,635 - INFO - Processing 374/507: UnivDorm_Ciaran
+2026-03-16 18:18:51,855 - INFO - Saved UnivDorm_Ciaran with shape (8592, 17)
+2026-03-16 18:18:51,855 - INFO - Processing 375/507: UnivDorm_Claudia
+2026-03-16 18:18:52,087 - INFO - Saved UnivDorm_Claudia with shape (8592, 17)
+2026-03-16 18:18:52,087 - INFO - Processing 376/507: UnivDorm_Clayton
+2026-03-16 18:18:52,403 - INFO - Saved UnivDorm_Clayton with shape (8592, 17)
+2026-03-16 18:18:52,403 - INFO - Processing 377/507: UnivDorm_Colton
+2026-03-16 18:18:52,674 - INFO - Saved UnivDorm_Colton with shape (8592, 17)
+2026-03-16 18:18:52,674 - INFO - Processing 378/507: UnivDorm_Constance
+2026-03-16 18:18:52,905 - INFO - Saved UnivDorm_Constance with shape (8592, 17)
+2026-03-16 18:18:52,905 - INFO - Processing 379/507: UnivDorm_Cooper
+2026-03-16 18:18:53,137 - INFO - Saved UnivDorm_Cooper with shape (8592, 17)
+2026-03-16 18:18:53,137 - INFO - Processing 380/507: UnivDorm_Corey
+2026-03-16 18:18:53,369 - INFO - Saved UnivDorm_Corey with shape (8592, 17)
+2026-03-16 18:18:53,369 - INFO - Processing 381/507: UnivDorm_Cornelius
+2026-03-16 18:18:53,608 - INFO - Saved UnivDorm_Cornelius with shape (8592, 17)
+2026-03-16 18:18:53,608 - INFO - Processing 382/507: UnivDorm_Curtis
+2026-03-16 18:18:53,840 - INFO - Saved UnivDorm_Curtis with shape (8592, 17)
+2026-03-16 18:18:53,840 - INFO - Processing 383/507: UnivDorm_Jeannette
+2026-03-16 18:18:54,098 - INFO - Saved UnivDorm_Jeannette with shape (8592, 17)
+2026-03-16 18:18:54,098 - INFO - Processing 384/507: UnivDorm_Laura
+2026-03-16 18:18:54,332 - INFO - Saved UnivDorm_Laura with shape (8592, 17)
+2026-03-16 18:18:54,332 - INFO - Processing 385/507: UnivDorm_Lawrence
+2026-03-16 18:18:54,547 - INFO - Saved UnivDorm_Lawrence with shape (8592, 17)
+2026-03-16 18:18:54,547 - INFO - Processing 386/507: UnivDorm_Leann
+2026-03-16 18:18:54,758 - INFO - Saved UnivDorm_Leann with shape (8592, 17)
+2026-03-16 18:18:54,758 - INFO - Processing 387/507: UnivDorm_Leonard
+2026-03-16 18:18:55,013 - INFO - Saved UnivDorm_Leonard with shape (8592, 17)
+2026-03-16 18:18:55,013 - INFO - Processing 388/507: UnivDorm_Leslie
+2026-03-16 18:18:55,293 - INFO - Saved UnivDorm_Leslie with shape (8592, 17)
+2026-03-16 18:18:55,293 - INFO - Processing 389/507: UnivDorm_Leticia
+2026-03-16 18:18:55,526 - INFO - Saved UnivDorm_Leticia with shape (8592, 17)
+2026-03-16 18:18:55,526 - INFO - Processing 390/507: UnivDorm_Lorraine
+2026-03-16 18:18:55,753 - INFO - Saved UnivDorm_Lorraine with shape (8592, 17)
+2026-03-16 18:18:55,753 - INFO - Processing 391/507: UnivDorm_Lysander
+2026-03-16 18:18:55,996 - INFO - Saved UnivDorm_Lysander with shape (8592, 17)
+2026-03-16 18:18:55,996 - INFO - Processing 392/507: UnivDorm_Malachi
+2026-03-16 18:18:56,214 - INFO - Saved UnivDorm_Malachi with shape (8592, 17)
+2026-03-16 18:18:56,214 - INFO - Processing 393/507: UnivDorm_Malcolm
+2026-03-16 18:18:56,443 - INFO - Saved UnivDorm_Malcolm with shape (8592, 17)
+2026-03-16 18:18:56,443 - INFO - Processing 394/507: UnivDorm_Marlene
+2026-03-16 18:18:56,791 - INFO - Saved UnivDorm_Marlene with shape (8592, 17)
+2026-03-16 18:18:56,791 - INFO - Processing 395/507: UnivDorm_Marquis
+2026-03-16 18:18:57,067 - INFO - Saved UnivDorm_Marquis with shape (8592, 17)
+2026-03-16 18:18:57,067 - INFO - Processing 396/507: UnivDorm_Mathew
+2026-03-16 18:18:57,307 - INFO - Saved UnivDorm_Mathew with shape (8592, 17)
+2026-03-16 18:18:57,307 - INFO - Processing 397/507: UnivDorm_Mauricio
+2026-03-16 18:18:57,542 - INFO - Saved UnivDorm_Mauricio with shape (8592, 17)
+2026-03-16 18:18:57,542 - INFO - Processing 398/507: UnivDorm_Mckenzie
+2026-03-16 18:18:57,771 - INFO - Saved UnivDorm_Mckenzie with shape (8592, 17)
+2026-03-16 18:18:57,771 - INFO - Processing 399/507: UnivDorm_Mitch
+2026-03-16 18:18:58,176 - INFO - Saved UnivDorm_Mitch with shape (8592, 17)
+2026-03-16 18:18:58,176 - INFO - Processing 400/507: UnivDorm_Paola
+2026-03-16 18:18:58,438 - INFO - Saved UnivDorm_Paola with shape (8592, 17)
+2026-03-16 18:18:58,438 - INFO - Processing 401/507: UnivDorm_Patrice
+2026-03-16 18:18:58,708 - INFO - Saved UnivDorm_Patrice with shape (8592, 17)
+2026-03-16 18:18:58,708 - INFO - Processing 402/507: UnivDorm_Patti
+2026-03-16 18:18:58,971 - INFO - Saved UnivDorm_Patti with shape (8592, 17)
+2026-03-16 18:18:58,971 - INFO - Processing 403/507: UnivDorm_Patty
+2026-03-16 18:18:59,218 - INFO - Saved UnivDorm_Patty with shape (8592, 17)
+2026-03-16 18:18:59,218 - INFO - Processing 404/507: UnivDorm_Payton
+2026-03-16 18:18:59,545 - INFO - Saved UnivDorm_Payton with shape (8592, 17)
+2026-03-16 18:18:59,545 - INFO - Processing 405/507: UnivDorm_Pedro
+2026-03-16 18:18:59,792 - INFO - Saved UnivDorm_Pedro with shape (8592, 17)
+2026-03-16 18:18:59,792 - INFO - Processing 406/507: UnivDorm_Petar
+2026-03-16 18:19:00,142 - INFO - Saved UnivDorm_Petar with shape (8592, 17)
+2026-03-16 18:19:00,142 - INFO - Processing 407/507: UnivDorm_Phillip
+2026-03-16 18:19:00,499 - INFO - Saved UnivDorm_Phillip with shape (8592, 17)
+2026-03-16 18:19:00,499 - INFO - Processing 408/507: UnivDorm_Phoebe
+2026-03-16 18:19:00,977 - INFO - Saved UnivDorm_Phoebe with shape (8592, 17)
+2026-03-16 18:19:00,977 - INFO - Processing 409/507: UnivDorm_Piper
+2026-03-16 18:19:01,315 - INFO - Saved UnivDorm_Piper with shape (8592, 17)
+2026-03-16 18:19:01,315 - INFO - Processing 410/507: UnivDorm_Poppy
+2026-03-16 18:19:01,640 - INFO - Saved UnivDorm_Poppy with shape (8592, 17)
+2026-03-16 18:19:01,640 - INFO - Processing 411/507: UnivDorm_Prince
+2026-03-16 18:19:01,900 - INFO - Saved UnivDorm_Prince with shape (8592, 17)
+2026-03-16 18:19:01,900 - INFO - Processing 412/507: UnivDorm_Una
+2026-03-16 18:19:02,208 - INFO - Saved UnivDorm_Una with shape (8592, 17)
+2026-03-16 18:19:02,208 - INFO - Processing 413/507: UnivLab_Adrian
+2026-03-16 18:19:02,514 - INFO - Saved UnivLab_Adrian with shape (8592, 17)
+2026-03-16 18:19:02,514 - INFO - Processing 414/507: UnivLab_Aine
+2026-03-16 18:19:02,799 - INFO - Saved UnivLab_Aine with shape (8592, 17)
+2026-03-16 18:19:02,799 - INFO - Processing 415/507: UnivLab_Alaina
+2026-03-16 18:19:03,051 - INFO - Saved UnivLab_Alaina with shape (8592, 17)
+2026-03-16 18:19:03,051 - INFO - Processing 416/507: UnivLab_Albert
+2026-03-16 18:19:03,280 - INFO - Saved UnivLab_Albert with shape (8592, 17)
+2026-03-16 18:19:03,281 - INFO - Processing 417/507: UnivLab_Alberto
+2026-03-16 18:19:03,621 - INFO - Saved UnivLab_Alberto with shape (8592, 17)
+2026-03-16 18:19:03,621 - INFO - Processing 418/507: UnivLab_Alexis
+2026-03-16 18:19:03,849 - INFO - Saved UnivLab_Alexis with shape (8592, 17)
+2026-03-16 18:19:03,849 - INFO - Processing 419/507: UnivLab_Alfonso
+2026-03-16 18:19:04,069 - INFO - Saved UnivLab_Alfonso with shape (8592, 17)
+2026-03-16 18:19:04,069 - INFO - Processing 420/507: UnivLab_Ali
+2026-03-16 18:19:04,301 - INFO - Saved UnivLab_Ali with shape (8592, 17)
+2026-03-16 18:19:04,301 - INFO - Processing 421/507: UnivLab_Alina
+2026-03-16 18:19:04,528 - INFO - Saved UnivLab_Alina with shape (8592, 17)
+2026-03-16 18:19:04,528 - INFO - Processing 422/507: UnivLab_Alisa
+2026-03-16 18:19:04,838 - INFO - Saved UnivLab_Alisa with shape (8592, 17)
+2026-03-16 18:19:04,838 - INFO - Processing 423/507: UnivLab_Allan
+2026-03-16 18:19:05,068 - INFO - Saved UnivLab_Allan with shape (8592, 17)
+2026-03-16 18:19:05,068 - INFO - Processing 424/507: UnivLab_Allison
+2026-03-16 18:19:05,295 - INFO - Saved UnivLab_Allison with shape (8592, 17)
+2026-03-16 18:19:05,295 - INFO - Processing 425/507: UnivLab_Amaya
+2026-03-16 18:19:05,526 - INFO - Saved UnivLab_Amaya with shape (8592, 17)
+2026-03-16 18:19:05,526 - INFO - Processing 426/507: UnivLab_Amy
+2026-03-16 18:19:05,756 - INFO - Saved UnivLab_Amy with shape (8592, 17)
+2026-03-16 18:19:05,756 - INFO - Processing 427/507: UnivLab_Ana
+2026-03-16 18:19:05,990 - INFO - Saved UnivLab_Ana with shape (8592, 17)
+2026-03-16 18:19:05,990 - INFO - Processing 428/507: UnivLab_Andre
+2026-03-16 18:19:06,389 - INFO - Saved UnivLab_Andre with shape (8592, 17)
+2026-03-16 18:19:06,389 - INFO - Processing 429/507: UnivLab_Angie
+2026-03-16 18:19:06,615 - INFO - Saved UnivLab_Angie with shape (8592, 17)
+2026-03-16 18:19:06,616 - INFO - Processing 430/507: UnivLab_Anita
+2026-03-16 18:19:06,836 - INFO - Saved UnivLab_Anita with shape (8592, 17)
+2026-03-16 18:19:06,836 - INFO - Processing 431/507: UnivLab_Aniya
+2026-03-16 18:19:07,149 - INFO - Saved UnivLab_Aniya with shape (8592, 17)
+2026-03-16 18:19:07,149 - INFO - Processing 432/507: UnivLab_Annabelle
+2026-03-16 18:19:07,430 - INFO - Saved UnivLab_Annabelle with shape (8592, 17)
+2026-03-16 18:19:07,430 - INFO - Processing 433/507: UnivLab_Annette
+2026-03-16 18:19:07,745 - INFO - Saved UnivLab_Annette with shape (8592, 17)
+2026-03-16 18:19:07,745 - INFO - Processing 434/507: UnivLab_Aoife
+2026-03-16 18:19:08,001 - INFO - Saved UnivLab_Aoife with shape (8592, 17)
+2026-03-16 18:19:08,001 - INFO - Processing 435/507: UnivLab_Arianna
+2026-03-16 18:19:08,249 - INFO - Saved UnivLab_Arianna with shape (8592, 17)
+2026-03-16 18:19:08,249 - INFO - Processing 436/507: UnivLab_Ariel
+2026-03-16 18:19:08,471 - INFO - Saved UnivLab_Ariel with shape (8592, 17)
+2026-03-16 18:19:08,471 - INFO - Processing 437/507: UnivLab_Ashlee
+2026-03-16 18:19:08,717 - INFO - Saved UnivLab_Ashlee with shape (8592, 17)
+2026-03-16 18:19:08,718 - INFO - Processing 438/507: UnivLab_Ashlynn
+2026-03-16 18:19:09,018 - INFO - Saved UnivLab_Ashlynn with shape (8592, 17)
+2026-03-16 18:19:09,018 - INFO - Processing 439/507: UnivLab_Ashton
+2026-03-16 18:19:09,269 - INFO - Saved UnivLab_Ashton with shape (8592, 17)
+2026-03-16 18:19:09,269 - INFO - Processing 440/507: UnivLab_Audra
+2026-03-16 18:19:09,505 - INFO - Saved UnivLab_Audra with shape (8592, 17)
+2026-03-16 18:19:09,505 - INFO - Processing 441/507: UnivLab_Aurora
+2026-03-16 18:19:09,731 - INFO - Saved UnivLab_Aurora with shape (8592, 17)
+2026-03-16 18:19:09,731 - INFO - Processing 442/507: UnivLab_Bert
+2026-03-16 18:19:09,952 - INFO - Saved UnivLab_Bert with shape (8616, 17)
+2026-03-16 18:19:09,952 - INFO - Processing 443/507: UnivLab_Beth
+2026-03-16 18:19:10,186 - INFO - Saved UnivLab_Beth with shape (8616, 17)
+2026-03-16 18:19:10,186 - INFO - Processing 444/507: UnivLab_Bethany
+2026-03-16 18:19:10,439 - INFO - Saved UnivLab_Bethany with shape (8616, 17)
+2026-03-16 18:19:10,439 - INFO - Processing 445/507: UnivLab_Brad
+2026-03-16 18:19:10,681 - INFO - Saved UnivLab_Brad with shape (8616, 17)
+2026-03-16 18:19:10,681 - INFO - Processing 446/507: UnivLab_Brenna
+2026-03-16 18:19:10,939 - INFO - Saved UnivLab_Brenna with shape (8616, 17)
+2026-03-16 18:19:10,939 - INFO - Processing 447/507: UnivLab_Caesar
+2026-03-16 18:19:11,181 - INFO - Saved UnivLab_Caesar with shape (8592, 17)
+2026-03-16 18:19:11,181 - INFO - Processing 448/507: UnivLab_Caitlin
+2026-03-16 18:19:11,446 - INFO - Saved UnivLab_Caitlin with shape (8592, 17)
+2026-03-16 18:19:11,446 - INFO - Processing 449/507: UnivLab_Callie
+2026-03-16 18:19:11,849 - INFO - Saved UnivLab_Callie with shape (8592, 17)
+2026-03-16 18:19:11,849 - INFO - Processing 450/507: UnivLab_Cam
+2026-03-16 18:19:12,113 - INFO - Saved UnivLab_Cam with shape (8592, 17)
+2026-03-16 18:19:12,113 - INFO - Processing 451/507: UnivLab_Camryn
+2026-03-16 18:19:12,441 - INFO - Saved UnivLab_Camryn with shape (8592, 17)
+2026-03-16 18:19:12,441 - INFO - Processing 452/507: UnivLab_Carley
+2026-03-16 18:19:12,816 - INFO - Saved UnivLab_Carley with shape (8592, 17)
+2026-03-16 18:19:12,816 - INFO - Processing 453/507: UnivLab_Carlos
+2026-03-16 18:19:13,271 - INFO - Saved UnivLab_Carlos with shape (8592, 17)
+2026-03-16 18:19:13,271 - INFO - Processing 454/507: UnivLab_Carlton
+2026-03-16 18:19:13,589 - INFO - Saved UnivLab_Carlton with shape (8592, 17)
+2026-03-16 18:19:13,589 - INFO - Processing 455/507: UnivLab_Carol
+2026-03-16 18:19:13,973 - INFO - Saved UnivLab_Carol with shape (8592, 17)
+2026-03-16 18:19:13,973 - INFO - Processing 456/507: UnivLab_Carole
+2026-03-16 18:19:14,348 - INFO - Saved UnivLab_Carole with shape (8592, 17)
+2026-03-16 18:19:14,348 - INFO - Processing 457/507: UnivLab_Cayden
+2026-03-16 18:19:14,692 - INFO - Saved UnivLab_Cayden with shape (8592, 17)
+2026-03-16 18:19:14,692 - INFO - Processing 458/507: UnivLab_Cecil
+2026-03-16 18:19:15,033 - INFO - Saved UnivLab_Cecil with shape (8592, 17)
+2026-03-16 18:19:15,033 - INFO - Processing 459/507: UnivLab_Cedric
+2026-03-16 18:19:15,314 - INFO - Saved UnivLab_Cedric with shape (8592, 17)
+2026-03-16 18:19:15,314 - INFO - Processing 460/507: UnivLab_Cesar
+2026-03-16 18:19:15,591 - INFO - Saved UnivLab_Cesar with shape (8592, 17)
+2026-03-16 18:19:15,591 - INFO - Processing 461/507: UnivLab_Cheyanne
+2026-03-16 18:19:15,973 - INFO - Saved UnivLab_Cheyanne with shape (8592, 17)
+2026-03-16 18:19:15,974 - INFO - Processing 462/507: UnivLab_Christine
+2026-03-16 18:19:16,249 - INFO - Saved UnivLab_Christine with shape (8592, 17)
+2026-03-16 18:19:16,249 - INFO - Processing 463/507: UnivLab_Christy
+2026-03-16 18:19:16,528 - INFO - Saved UnivLab_Christy with shape (8592, 17)
+2026-03-16 18:19:16,528 - INFO - Processing 464/507: UnivLab_Ciel
+2026-03-16 18:19:16,837 - INFO - Saved UnivLab_Ciel with shape (8592, 17)
+2026-03-16 18:19:16,837 - INFO - Processing 465/507: UnivLab_Cindy
+2026-03-16 18:19:17,157 - INFO - Saved UnivLab_Cindy with shape (8592, 17)
+2026-03-16 18:19:17,157 - INFO - Processing 466/507: UnivLab_Clint
+2026-03-16 18:19:17,459 - INFO - Saved UnivLab_Clint with shape (8592, 17)
+2026-03-16 18:19:17,459 - INFO - Processing 467/507: UnivLab_Clodagh
+2026-03-16 18:19:17,742 - INFO - Saved UnivLab_Clodagh with shape (8592, 17)
+2026-03-16 18:19:17,742 - INFO - Processing 468/507: UnivLab_Collin
+2026-03-16 18:19:18,068 - INFO - Saved UnivLab_Collin with shape (8592, 17)
+2026-03-16 18:19:18,068 - INFO - Processing 469/507: UnivLab_Cory
+2026-03-16 18:19:18,338 - INFO - Saved UnivLab_Cory with shape (8592, 17)
+2026-03-16 18:19:18,338 - INFO - Processing 470/507: UnivLab_Cristian
+2026-03-16 18:19:18,702 - INFO - Saved UnivLab_Cristian with shape (8592, 17)
+2026-03-16 18:19:18,702 - INFO - Processing 471/507: UnivLab_Crystal
+2026-03-16 18:19:19,020 - INFO - Saved UnivLab_Crystal with shape (8592, 17)
+2026-03-16 18:19:19,020 - INFO - Processing 472/507: UnivLab_Dianna
+2026-03-16 18:19:19,308 - INFO - Saved UnivLab_Dianna with shape (8592, 17)
+2026-03-16 18:19:19,308 - INFO - Processing 473/507: UnivLab_Lauren
+2026-03-16 18:19:19,615 - INFO - Saved UnivLab_Lauren with shape (8592, 17)
+2026-03-16 18:19:19,615 - INFO - Processing 474/507: UnivLab_Lea
+2026-03-16 18:19:20,290 - INFO - Saved UnivLab_Lea with shape (8592, 17)
+2026-03-16 18:19:20,290 - INFO - Processing 475/507: UnivLab_Lee
+2026-03-16 18:19:20,662 - INFO - Saved UnivLab_Lee with shape (8592, 17)
+2026-03-16 18:19:20,662 - INFO - Processing 476/507: UnivLab_Lester
+2026-03-16 18:19:21,060 - INFO - Saved UnivLab_Lester with shape (8592, 17)
+2026-03-16 18:19:21,061 - INFO - Processing 477/507: UnivLab_Levi
+2026-03-16 18:19:21,327 - INFO - Saved UnivLab_Levi with shape (8592, 17)
+2026-03-16 18:19:21,327 - INFO - Processing 478/507: UnivLab_Lilly
+2026-03-16 18:19:21,590 - INFO - Saved UnivLab_Lilly with shape (8592, 17)
+2026-03-16 18:19:21,591 - INFO - Processing 479/507: UnivLab_Louie
+2026-03-16 18:19:21,851 - INFO - Saved UnivLab_Louie with shape (8592, 17)
+2026-03-16 18:19:21,851 - INFO - Processing 480/507: UnivLab_Lyle
+2026-03-16 18:19:22,112 - INFO - Saved UnivLab_Lyle with shape (8592, 17)
+2026-03-16 18:19:22,112 - INFO - Processing 481/507: UnivLab_Mack
+2026-03-16 18:19:22,351 - INFO - Saved UnivLab_Mack with shape (8592, 17)
+2026-03-16 18:19:22,351 - INFO - Processing 482/507: UnivLab_Madelyn
+2026-03-16 18:19:22,724 - INFO - Saved UnivLab_Madelyn with shape (8592, 17)
+2026-03-16 18:19:22,725 - INFO - Processing 483/507: UnivLab_Margret
+2026-03-16 18:19:23,166 - INFO - Saved UnivLab_Margret with shape (8592, 17)
+2026-03-16 18:19:23,166 - INFO - Processing 484/507: UnivLab_Mariana
+2026-03-16 18:19:23,421 - INFO - Saved UnivLab_Mariana with shape (8592, 17)
+2026-03-16 18:19:23,421 - INFO - Processing 485/507: UnivLab_Marie
+2026-03-16 18:19:23,691 - INFO - Saved UnivLab_Marie with shape (8592, 17)
+2026-03-16 18:19:23,692 - INFO - Processing 486/507: UnivLab_Mario
+2026-03-16 18:19:24,111 - INFO - Saved UnivLab_Mario with shape (8592, 17)
+2026-03-16 18:19:24,111 - INFO - Processing 487/507: UnivLab_Marshall
+2026-03-16 18:19:24,357 - INFO - Saved UnivLab_Marshall with shape (8592, 17)
+2026-03-16 18:19:24,357 - INFO - Processing 488/507: UnivLab_Miles
+2026-03-16 18:19:24,592 - INFO - Saved UnivLab_Miles with shape (8592, 17)
+2026-03-16 18:19:24,592 - INFO - Processing 489/507: UnivLab_Neil
+2026-03-16 18:19:24,822 - INFO - Saved UnivLab_Neil with shape (8592, 17)
+2026-03-16 18:19:24,822 - INFO - Processing 490/507: UnivLab_Paris
+2026-03-16 18:19:25,108 - INFO - Saved UnivLab_Paris with shape (8592, 17)
+2026-03-16 18:19:25,108 - INFO - Processing 491/507: UnivLab_Parker
+2026-03-16 18:19:25,615 - INFO - Saved UnivLab_Parker with shape (8592, 17)
+2026-03-16 18:19:25,615 - INFO - Processing 492/507: UnivLab_Patrick
+2026-03-16 18:19:25,945 - INFO - Saved UnivLab_Patrick with shape (8592, 17)
+2026-03-16 18:19:25,945 - INFO - Processing 493/507: UnivLab_Patsy
+2026-03-16 18:19:26,210 - INFO - Saved UnivLab_Patsy with shape (8592, 17)
+2026-03-16 18:19:26,210 - INFO - Processing 494/507: UnivLab_Paul
+2026-03-16 18:19:26,463 - INFO - Saved UnivLab_Paul with shape (8592, 17)
+2026-03-16 18:19:26,463 - INFO - Processing 495/507: UnivLab_Peggy
+2026-03-16 18:19:26,783 - INFO - Saved UnivLab_Peggy with shape (8592, 17)
+2026-03-16 18:19:26,783 - INFO - Processing 496/507: UnivLab_Peyton
+2026-03-16 18:19:27,033 - INFO - Saved UnivLab_Peyton with shape (8592, 17)
+2026-03-16 18:19:27,034 - INFO - Processing 497/507: UnivLab_Phil
+2026-03-16 18:19:27,264 - INFO - Saved UnivLab_Phil with shape (8592, 17)
+2026-03-16 18:19:27,264 - INFO - Processing 498/507: UnivLab_Preston
+2026-03-16 18:19:27,494 - INFO - Saved UnivLab_Preston with shape (8592, 17)
+2026-03-16 18:19:27,495 - INFO - Processing 499/507: UnivLab_Priscilla
+2026-03-16 18:19:27,750 - INFO - Saved UnivLab_Priscilla with shape (8592, 17)
+2026-03-16 18:19:27,750 - INFO - Processing 500/507: UnivLab_Santiago
+2026-03-16 18:19:28,166 - INFO - Saved UnivLab_Santiago with shape (8592, 17)
+2026-03-16 18:19:28,166 - INFO - Processing 501/507: UnivLab_Susan
+2026-03-16 18:19:28,388 - INFO - Saved UnivLab_Susan with shape (8592, 17)
+2026-03-16 18:19:28,388 - INFO - Processing 502/507: UnivLab_Suzette
+2026-03-16 18:19:28,614 - INFO - Saved UnivLab_Suzette with shape (8592, 17)
+2026-03-16 18:19:28,614 - INFO - Processing 503/507: UnivLab_Tami
+2026-03-16 18:19:28,846 - INFO - Saved UnivLab_Tami with shape (8592, 17)
+2026-03-16 18:19:28,846 - INFO - Processing 504/507: UnivLab_Taylor
+2026-03-16 18:19:29,109 - INFO - Saved UnivLab_Taylor with shape (8592, 17)
+2026-03-16 18:19:29,109 - INFO - Processing 505/507: UnivLab_Terrie
+2026-03-16 18:19:29,363 - INFO - Saved UnivLab_Terrie with shape (8592, 17)
+2026-03-16 18:19:29,363 - INFO - Processing 506/507: UnivLab_Tracie
+2026-03-16 18:19:29,606 - INFO - Saved UnivLab_Tracie with shape (8592, 17)
+2026-03-16 18:19:29,607 - INFO - Processing 507/507: UnivLab_Tracy
+2026-03-16 18:19:29,931 - INFO - Saved UnivLab_Tracy with shape (8592, 17)
